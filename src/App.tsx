@@ -21,7 +21,7 @@ function App() {
       {/* <Testimonials /> */}
       {/* <Team /> */}
       {/* <Newsletter /> */}
-      <FAQ />
+{/*       <FAQ /> */}
       <Footer />
       <ScrollToTop />
     </>
