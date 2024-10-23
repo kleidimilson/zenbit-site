@@ -1,4 +1,3 @@
-import { Button } from "./ui/button";
 
 
 export const Hero = () => {
@@ -20,7 +19,10 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Consultoria gratuita</Button>
+          <a
+                        href=" https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!."
+
+          className="w-full md:w-1/3 bg-primary text-primary-foreground hover:bg-primary/90 p-3 cursor-pointer rounded ">Consultoria gratuita</a>
         </div>
       </div>
 
