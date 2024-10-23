@@ -108,7 +108,7 @@ export const Navbar = () => {
               Contato
             </a>
 
-            <ModeToggle />
+              {/* <ModeToggle /> */}
           </div>
         </NavigationMenuList>
       </NavigationMenu>
