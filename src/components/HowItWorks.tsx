@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Desenvolvimento de Sistemas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Projetamos e desenvolvemos sistemas personalizados.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Criação de Sites",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Transformamos sua presença online com sites modernos, responsivos e intuitivos",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Desenvolvimento de Aplicativos",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Criamos aplicativos móveis e web que facilitam a interação dos seus clientes",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Consultoria Tecnológica",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Oferecemos consultoria especializada para identificar e implementar as melhores soluções tecnológicas",
   },
 ];
 
@@ -41,15 +41,14 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+       
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+        Nossos Serviços
+
         </span>
-        Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+         Soluções inovadoras
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -26,20 +26,17 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "Início",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Nossa Essência",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Serviços",
   },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+  
 ];
 
 export const Navbar = () => {
@@ -55,7 +52,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
+              Zenbit
             </a>
           </NavigationMenuItem>
 
@@ -133,8 +130,7 @@ export const Navbar = () => {
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
+              Contato
             </a>
 
             <ModeToggle />
