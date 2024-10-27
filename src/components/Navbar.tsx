@@ -1,20 +1,20 @@
-import { useState } from "react";
+import { useState } from 'react';
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-} from "@/components/ui/navigation-menu";
+} from '@/components/ui/navigation-menu';
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from '@/components/ui/sheet';
 
-import { buttonVariants } from "./ui/button";
-import { Menu } from "lucide-react";
-import logo from '@/assets/logo.png'
+import { buttonVariants } from './ui/button';
+import { Menu } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 interface RouteProps {
   href: string;
@@ -23,18 +23,17 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#home",
-    label: "Início",
+    href: '#home',
+    label: 'Início',
   },
   {
-    href: "#about",
-    label: "Nossa Essência",
+    href: '#about',
+    label: 'Nossa Essência',
   },
   {
-    href: "#pricing",
-    label: "Serviços",
+    href: '#howItWorks',
+    label: 'Serviços',
   },
-  
 ];
 
 export const Navbar = () => {
@@ -57,10 +56,7 @@ export const Navbar = () => {
           <span className="flex md:hidden">
             {/* <ModeToggle /> */}
 
-            <Sheet
-              open={isOpen}
-              onOpenChange={setIsOpen}
-            >
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2 ">
                 <Menu
                   className="flex md:hidden h-5 w-5"
@@ -70,27 +66,24 @@ export const Navbar = () => {
                 </Menu>
               </SheetTrigger>
 
-              <SheetContent side={"left"}>
+              <SheetContent side={'left'}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">
-                    Zenbit
-                  </SheetTitle>
+                  <SheetTitle className="font-bold text-xl">Zenbit</SheetTitle>
                 </SheetHeader>
                 <div className="flex flex-col space-y-4">
-                {routeList.map((route: RouteProps, i) => (
-              <a
-                rel="noreferrer noopener"
-                href={route.href}
-                key={i}
-                className={`text-[17px] ${buttonVariants({
-                  variant: "ghost",
-                })}`}
-              >
-                {route.label}
-              </a>
-            ))}
+                  {routeList.map((route: RouteProps, i) => (
+                    <a
+                      rel="noreferrer noopener"
+                      href={route.href}
+                      key={i}
+                      className={`text-[17px] ${buttonVariants({
+                        variant: 'ghost',
+                      })}`}
+                    >
+                      {route.label}
+                    </a>
+                  ))}
                 </div>
-
               </SheetContent>
             </Sheet>
           </span>
@@ -103,7 +96,7 @@ export const Navbar = () => {
                 href={route.href}
                 key={i}
                 className={`text-[17px] ${buttonVariants({
-                  variant: "ghost",
+                  variant: 'ghost',
                 })}`}
               >
                 {route.label}
@@ -116,12 +109,12 @@ export const Navbar = () => {
               rel="noreferrer noopener"
               href=" https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!."
               target="_blank"
-              className={`border ${buttonVariants({ variant: "outline" })}`}
+              className={`border ${buttonVariants({ variant: 'outline' })}`}
             >
               Contato
             </a>
 
-              {/* <ModeToggle /> */}
+            {/* <ModeToggle /> */}
           </div>
         </NavigationMenuList>
       </NavigationMenu>
