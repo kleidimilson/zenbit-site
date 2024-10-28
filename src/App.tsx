@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <div className="flex items-center bg-[#5BC560] h-[80px] text-xl	 text-black font-bold relative overflow-hidden whitespace-nowrap">
+      <div className="flex items-center bg-[#52B357] h-[80px] text-xl	 text-black font-bold relative overflow-hidden whitespace-nowrap">
         <div className="animate-marquee flex gap-[100px]">
           <div className="flex items-center">
             <img src={start} />

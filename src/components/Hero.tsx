@@ -9,7 +9,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             Tenha o{' '}
-            <span style={{ color: '#52b357' }}>software sob medida </span>para
+            <span style={{ color: '#52B357' }}>software sob medida </span>para
             atender o seu negócio
           </h1>{' '}
         </main>

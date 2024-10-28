@@ -34,6 +34,10 @@ const routeList: RouteProps[] = [
     href: '#howItWorks',
     label: 'Serviços',
   },
+  {
+    href: ' https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.',
+    label: 'Contato',
+  },
 ];
 
 export const Navbar = () => {
@@ -53,7 +57,7 @@ export const Navbar = () => {
           </NavigationMenuItem>
 
           {/* mobile */}
-          <span className="flex md:hidden">
+          <span className="flex  md:hidden">
             {/* <ModeToggle /> */}
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -111,7 +115,7 @@ export const Navbar = () => {
               target="_blank"
               className={`border ${buttonVariants({ variant: 'outline' })}`}
             >
-              Contato
+              Agende uma consultoria
             </a>
 
             {/* <ModeToggle /> */}
