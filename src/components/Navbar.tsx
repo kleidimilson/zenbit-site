@@ -52,7 +52,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <img src={logo} width={80} />
+              <img src={logo} width={80} alt='logo zenbit'/>
             </a>
           </NavigationMenuItem>
 

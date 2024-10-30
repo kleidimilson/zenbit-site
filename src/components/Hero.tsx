@@ -31,7 +31,7 @@ export const Hero = () => {
 
       {/* Hero cards sections */}
       <div className="">
-        <img src={ImageHero} />
+        <img src={ImageHero} alt='imagem de um pincel' />
       </div>
 
       {/* Shadow effect */}
