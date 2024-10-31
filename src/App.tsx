@@ -1,6 +1,6 @@
 
 
-import React, { Suspense, lazy } from 'react';
+import  { lazy } from 'react';
 import { About } from './components/About';
 import { Footer } from './components/Footer';
 import { HowItWorks } from './components/HowItWorks';
