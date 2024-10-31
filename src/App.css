@@ -157,3 +157,7 @@
   white-space: nowrap;
   animation: marquee 50s linear infinite;
 }
+
+*{
+  font-display: swap
+}

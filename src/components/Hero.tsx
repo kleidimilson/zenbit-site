@@ -1,5 +1,5 @@
-import ImageHero from '@/assets/image-hero.svg';
-export const Hero = () => {
+import ImageHero from '@/assets/image-hero.png';
+export default function Hero() {
   return (
     <section
       id="home"
@@ -30,8 +30,8 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="">
-        <img src={ImageHero} alt='imagem de um pincel' />
+      <div className="hidden md:block">
+      <img src={ImageHero} alt="Imagem Hero" style={{width:'100%', height:'auto'}}/>
       </div>
 
       {/* Shadow effect */}

@@ -9,6 +9,7 @@ export const About = () => {
             src={imageAbout}
             alt="logo zenbit"
             className="w-[300px] object-contain rounded-lg"
+            width={300}
           />
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6 ">
