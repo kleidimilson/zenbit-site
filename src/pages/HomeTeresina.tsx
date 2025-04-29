@@ -6,11 +6,11 @@ import { ScrollToTop } from '@/components/ScrollToTop';
 import start from '@/assets/66a2608272256f8a1ab4f272_Star.svg';
 import { lazy } from 'react';
 const HeroComponent = lazy(() => import('@/components/Hero'));
-import { Helmet } from 'react-helmet';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 export function HomeTeresina() {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title>Criação de site em Teresina-PI</title>
         <meta name="title" content="Criação de site em Teresina-PI" />
@@ -105,6 +105,6 @@ export function HomeTeresina() {
       <HowItWorks />
       <Footer />
       <ScrollToTop />{' '}
-    </>
+   </HelmetProvider>
   );
 }
