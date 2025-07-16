@@ -7,6 +7,7 @@ import start from '@/assets/66a2608272256f8a1ab4f272_Star.svg';
 import { lazy } from 'react';
 const HeroComponent = lazy(() => import('@/components/Hero'));
 import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { Portfolio } from '@/components/Portifolio';
 
 export function Home() {
   return (
@@ -102,6 +103,7 @@ export function Home() {
         </div>
       </div>
       <About />
+      <Portfolio />
       <HowItWorks />
       <Footer />
       <ScrollToTop />
