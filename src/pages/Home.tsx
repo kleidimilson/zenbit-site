@@ -103,8 +103,8 @@ export function Home() {
         </div>
       </div>
       <About />
-      <Portfolio />
       <HowItWorks />
+      <Portfolio />
       <Footer />
       <ScrollToTop />
     </HelmetProvider>
