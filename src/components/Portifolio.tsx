@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react"
+import { ChevronLeft, ChevronRight, ExternalLink } from "lucide-react"
 
 interface Project {
   id: number
@@ -75,7 +75,7 @@ const categories = [
 ]
 
 export function Portfolio() {
-  const [activeCategory, setActiveCategory] = useState<string>("all")
+  const activeCategory = "all"
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const filteredProjects =
