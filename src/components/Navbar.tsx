@@ -1,134 +1,47 @@
-import { useState } from 'react';
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuList,
-} from '@/components/ui/navigation-menu';
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '@/components/ui/sheet';
+const WHATSAPP_URL =
+  'https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.';
 
-import { buttonVariants } from './ui/button';
-import { Menu } from 'lucide-react';
-import logo from '@/assets/logo.png';
+const ZMark = () => (
+  <svg className="z-mark" width="22" height="22" viewBox="0 0 32 32" fill="none">
+    <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="rgba(255,255,255,0.18)" />
+    <path
+      d="M9 10.5h13.5L10.5 22H23"
+      stroke="#7CFF6B"
+      strokeWidth="2.2"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
+    />
+  </svg>
+);
 
-interface RouteProps {
-  href: string;
-  label: string;
-}
+export const Navbar = () => (
+  <nav>
+    <div className="nav-inner">
+      <a href="#" className="nav-logo">
+        <ZMark />
+        <span className="wordmark">Zenbit</span>
+        <span className="version">v.26</span>
+      </a>
 
-const routeList: RouteProps[] = [
-  {
-    href: '#home',
-    label: 'Início',
-  },
-  {
-    href: '#about',
-    label: 'Nossa Essência',
-  },
-  {
-    href: '#howItWorks',
-    label: 'Serviços',
-  },
-  {
-    href: ' https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.',
-    label: 'Contato',
-  },
-];
+      <div className="nav-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
 
-export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
-      <NavigationMenu className="mx-auto">
-        <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
-          <NavigationMenuItem className="font-bold flex">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="ml-2 font-bold text-xl flex"
-            >
-              <img src={logo} width={80} alt='logo zenbit'/>
-            </a>
-          </NavigationMenuItem>
-
-          {/* mobile */}
-          <li>
-          <span className="flex  md:hidden">
-            {/* <ModeToggle /> */}
-
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger className="px-2 ">
-                <Menu
-                  className="flex md:hidden h-5 w-5 "
-                  onClick={() => setIsOpen(true)}
-                  aria-label="Fechar"
-                >
-                  <span className="sr-only">Menu Icon</span>
-                </Menu>
-              </SheetTrigger>
-
-              <SheetContent side={'left'}>
-                <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">Zenbit</SheetTitle>
-                </SheetHeader>
-                <div className="flex flex-col space-y-4">
-                  {routeList.map((route: RouteProps, i) => (
-                    <a
-                      rel="noreferrer noopener"
-                      href={route.href}
-                      key={i}
-                      className={`text-[17px] ${buttonVariants({
-                        variant: 'ghost',
-                      })}`}
-                    >
-                      {route.label}
-                    </a>
-                  ))}
-                </div>
-              </SheetContent>
-            </Sheet>
-          </span>
-          </li>
-        
-
-          {/* desktop */}
-          <nav className="hidden md:flex gap-2">
-            {routeList.map((route: RouteProps, i) => (
-              <li key={i}>
-
-             
-              <a
-                rel="noreferrer noopener"
-                href={route.href}
-                key={i}
-                className={`text-[17px] ${buttonVariants({
-                  variant: 'ghost',
-                })}`}
-              >
-                {route.label}
-              </a> </li>
-            ))}
-          </nav>
-
-          <div className="hidden md:flex gap-2">
-            <a
-              rel="noreferrer noopener"
-              href=" https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!."
-              target="_blank"
-              className={`border ${buttonVariants({ variant: 'outline' })}`}
-            >
-              Agende uma consultoria
-            </a>
-
-            {/* <ModeToggle /> */}
-          </div>
-        </NavigationMenuList>
-      </NavigationMenu>
-    </header>
-  );
-};
+      <div className="nav-right">
+        <span className="mono-dim">BR · 2026</span>
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn primary"
+        >
+          <span className="btn-dot" />
+          Agendar consultoria
+        </a>
+      </div>
+    </div>
+  </nav>
+);

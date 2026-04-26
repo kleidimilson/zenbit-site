@@ -1,45 +1,34 @@
-import imageAbout from '../assets/img-about.svg';
+const stats = [
+  { n: '01', value: '7', label: 'projetos\nentregues', sub: '2023 → 2026' },
+  { n: '02', value: '4', label: 'engenheiros\nem time', sub: 'remoto, BR' },
+  { n: '03', value: '2', label: 'clientes\nrecorrentes', sub: 'a 3+ anos' },
+  { n: '04', value: '∞', label: 'cafés\ntomados', sub: 'sem ironia' },
+];
 
-export const About = () => {
+export function About() {
   return (
-    <section id="about" className="container py-24 sm:py-32">
-      <div className=" rounded-lg py-12">
-        <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <img
-            src={imageAbout}
-            alt="logo zenbit"
-            className="w-[300px] object-contain rounded-lg"
-            width={300}
-          />
-          <div className="bg-green-0 flex flex-col justify-between">
-            <div className="pb-6 ">
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Conheça
-                <span className="mx-2 bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  a Zenbit{' '}
-                </span>
-              </h2>
-              <p className="text-xl text-muted-foreground mt-4">
-                Somos uma software-house especializada em soluções sob medida,
-                aplicativos móveis e web, consultoria em TI. Com anos de
-                experiência na criação de sistemas, sites e aplicativos, nossa
-                missão é transformar suas ideias em realidade digital.
-                Acreditamos que soluções tecnológicas eficientes e
-                personalizadas são a chave para o sucesso dos nossos clientes.
-              </p>
-            </div>
-
-            <div className="space-y-4 mt-4  md:space-y-0 md:space-x-4">
-              <a
-                href=" https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!."
-                className="w-full md:w-1/3 bg-primary text-primary-foreground hover:bg-primary/90 p-3 cursor-pointer rounded "
-              >
-                Fale Conosco
-              </a>
-            </div>
+    <section className="about" id="sobre">
+      <div className="wrap">
+        <div className="section-header">
+          <span className="section-label">// 01 — sobre</span>
+          <div>
+            <h2>
+              Somos uma <em>software-house</em> brasileira que prefere o trabalho de oficina ao de
+              fábrica — pequenos times, decisões claras, software que envelhece bem.
+            </h2>
           </div>
+        </div>
+        <div className="stats-grid">
+          {stats.map(s => (
+            <div key={s.n} className="stat">
+              <span className="mono-dim">{s.n}</span>
+              <div className="stat-n">{s.value}</div>
+              <div className="stat-l">{s.label}</div>
+              <span className="stat-sub">{s.sub}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
-};
+}
