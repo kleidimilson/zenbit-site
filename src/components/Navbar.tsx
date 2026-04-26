@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 const WHATSAPP_URL =
   'https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.';
 
@@ -14,34 +16,68 @@ const ZMark = () => (
   </svg>
 );
 
-export const Navbar = () => (
-  <nav>
-    <div className="nav-inner">
-      <a href="#" className="nav-logo">
-        <ZMark />
-        <span className="wordmark">Zenbit</span>
-        <span className="version">v.26</span>
-      </a>
+export const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const close = () => setOpen(false);
 
-      <div className="nav-links">
-        <a href="#servicos">Serviços</a>
-        <a href="#processo">Processo</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-      </div>
-
-      <div className="nav-right">
-        <span className="mono-dim">BR · 2026</span>
-        <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="btn primary"
-        >
-          <span className="btn-dot" />
-          Agendar consultoria
+  return (
+    <nav>
+      <div className="nav-inner">
+        <a href="#" className="nav-logo">
+          <ZMark />
+          <span className="wordmark">Zenbit</span>
+          <span className="version">v.26</span>
         </a>
+
+        <div className="nav-links">
+          <a href="#servicos">Serviços</a>
+          <a href="#processo">Processo</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </div>
+
+        <div className="nav-right">
+          <span className="mono-dim">BR · 2026</span>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn primary"
+          >
+            <span className="btn-dot" />
+            Agendar consultoria
+          </a>
+          <button
+            className={`nav-burger${open ? ' is-open' : ''}`}
+            onClick={() => setOpen(o => !o)}
+            aria-label="Abrir menu"
+            aria-expanded={open}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </div>
-    </div>
-  </nav>
-);
+
+      {open && (
+        <div className="nav-mobile">
+          <a href="#servicos" onClick={close}>Serviços</a>
+          <a href="#processo" onClick={close}>Processo</a>
+          <a href="#sobre" onClick={close}>Sobre</a>
+          <a href="#contato" onClick={close}>Contato</a>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn primary nav-mobile-cta"
+            onClick={close}
+          >
+            <span className="btn-dot" />
+            Agendar consultoria gratuita <span className="arrow">↗</span>
+          </a>
+        </div>
+      )}
+    </nav>
+  );
+};
