@@ -12,15 +12,15 @@ export function HomeTeresina() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Criação de site em Teresina-PI</title>
-        <meta name="title" content="Criação de site em Teresina-PI" />
+        <title>Zenbit Softhouse - Teresina-PI</title>
+        <meta name="title" content="Zenbit Softhouse - Teresina-PI" />
         <meta
           name="description"
           content="Crie seu software em teresina piauí de acordo com a sua necessidade Aplicativos, sites, sistemas web e desktop."
         />
         <meta property="og:type" content="website" />
 
-        <meta property="og:title" content="Zenbit" />
+        <meta property="og:title" content="Zenbit Softhouse - Teresina-PI" />
         <meta
           property="og:description"
           content="Crie seu software em teresina Piauí de acordo com a sua necessidade Aplicativos, sites, sistemas web e desktop."
