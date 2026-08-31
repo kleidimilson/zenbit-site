@@ -1,5 +1,4 @@
-const WHATSAPP_URL =
-  'https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.';
+import { WHATSAPP_URL } from '@/lib/constants';
 
 export function CtaSection() {
   return (
@@ -17,7 +16,7 @@ export function CtaSection() {
 
           <div className="cta-inner">
             <div>
-              <span className="accent-label">// 04 — vamos conversar</span>
+              <span className="accent-label">// 06 — vamos conversar</span>
               <h2>
                 Tem um problema <em>que mereça</em> software?
               </h2>

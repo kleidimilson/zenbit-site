@@ -1,16 +1,24 @@
-import { Home } from '@/pages/Home';
-import { HomeTeresina } from '@/pages/HomeTeresina';
-import { createBrowserRouter } from 'react-router-dom';
+import type { RouteRecord } from 'vite-react-ssg';
+import { blogSlugs } from '@/lib/blog';
 
-const routes = createBrowserRouter([
+const routes: RouteRecord[] = [
   {
     path: '/',
-    element: <Home />,
+    lazy: () => import('@/pages/Home'),
   },
   {
     path: '/criacao-de-site-em/teresina-pi/',
-    element: <HomeTeresina />,
+    lazy: () => import('@/pages/HomeTeresina'),
   },
-]);
+  {
+    path: '/blog',
+    lazy: () => import('@/pages/Blog'),
+  },
+  {
+    path: '/blog/:slug',
+    lazy: () => import('@/pages/BlogPost'),
+    getStaticPaths: () => blogSlugs.map(slug => `blog/${slug}`),
+  },
+];
 
 export { routes };

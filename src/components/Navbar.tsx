@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-const WHATSAPP_URL =
-  'https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.';
+import { Link } from 'react-router-dom';
+import { WHATSAPP_URL } from '@/lib/constants';
 
 const ZMark = () => (
   <svg className="z-mark" width="22" height="22" viewBox="0 0 32 32" fill="none">
@@ -33,6 +32,7 @@ export const Navbar = () => {
           <a href="#servicos">Serviços</a>
           <a href="#processo">Processo</a>
           <a href="#sobre">Sobre</a>
+          <Link to="/blog">Blog</Link>
           <a href="#contato">Contato</a>
         </div>
 
@@ -65,6 +65,7 @@ export const Navbar = () => {
           <a href="#servicos" onClick={close}>Serviços</a>
           <a href="#processo" onClick={close}>Processo</a>
           <a href="#sobre" onClick={close}>Sobre</a>
+          <Link to="/blog" onClick={close}>Blog</Link>
           <a href="#contato" onClick={close}>Contato</a>
           <a
             href={WHATSAPP_URL}

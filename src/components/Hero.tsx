@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
-
-const WHATSAPP_URL =
-  'https://wa.me/5586994201843?text=Olá,%20gostaria%20de%20ter%20uma%20consultoria%20gratuita!.';
+import { WHATSAPP_URL } from '@/lib/constants';
 
 const terminalLines = [
   { prompt: '$', text: 'zenbit init projeto', ok: false },

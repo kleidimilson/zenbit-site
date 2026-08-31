@@ -1,3 +1,5 @@
+import { WHATSAPP_NUMBER } from '@/lib/constants';
+
 const ZMark = () => (
   <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
     <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="rgba(255,255,255,0.18)" />
@@ -59,7 +61,7 @@ export const Footer = () => (
           <div className="footer-col-label">Contato</div>
           <ul>
             <li><a href="mailto:contato@zenbit.com.br">contato@zenbit.com.br</a></li>
-            <li><a href="https://wa.me/5586994201843" target="_blank" rel="noreferrer noopener">+55 86 9 9420-1843</a></li>
+            <li><a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer noopener">+55 86 9 9420-1843</a></li>
             <li><a href="#contato">Teresina, PI</a></li>
             <li><a href="#">LinkedIn</a></li>
           </ul>

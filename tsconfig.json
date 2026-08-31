@@ -25,6 +25,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "generate-sitemap.js"],
+  "include": ["src", "generate-sitemap.js", "scripts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
