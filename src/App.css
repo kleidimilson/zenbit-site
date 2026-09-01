@@ -352,7 +352,7 @@ footer { padding: 60px 0 32px; border-top: 1px solid var(--line); }
 }
 .footer-wordmark-accent { color: var(--accent); }
 .footer-since { font-family: var(--mono); font-size: 14px; font-style: normal; color: var(--ink-3); letter-spacing: 0.06em; }
-.footer-grid { display: grid; grid-template-columns: 1.2fr repeat(3,1fr); gap: 48px; padding: 40px 0; }
+.footer-grid { display: grid; grid-template-columns: 1.2fr repeat(4,1fr); gap: 36px; padding: 40px 0; }
 .footer-about p { color: var(--ink-2); font-size: 14px; line-height: 1.5; max-width: 280px; margin: 0; }
 .footer-about-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
 .footer-col-label { font-family: var(--mono); font-size: 0.78em; letter-spacing: 0.08em; color: var(--ink-3); text-transform: uppercase; }

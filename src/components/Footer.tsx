@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { WHATSAPP_NUMBER } from '@/lib/constants';
-import { localPages } from '@/lib/local-pages';
+import { getLocalPagesInCity, getLocalPagesInOtherCities, MAIN_CITY } from '@/lib/local-pages';
 import { getLatestPosts } from '@/lib/blog';
 
 const ZMark = () => (
@@ -44,11 +44,24 @@ export const Footer = () => {
           </div>
 
           <div className="footer-col">
-            <div className="footer-col-label">Serviços em Teresina</div>
+            <div className="footer-col-label">Serviços em {MAIN_CITY}</div>
             <ul>
-              {localPages.map(page => (
+              {getLocalPagesInCity(MAIN_CITY).map(page => (
                 <li key={page.slug}>
                   <Link to={`/${page.slug}/`}>{page.serviceName}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-col">
+            <div className="footer-col-label">Outras cidades</div>
+            <ul>
+              {getLocalPagesInOtherCities(MAIN_CITY).map(page => (
+                <li key={page.slug}>
+                  <Link to={`/${page.slug}/`}>
+                    {page.serviceName} em {page.city}
+                  </Link>
                 </li>
               ))}
             </ul>

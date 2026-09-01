@@ -378,5 +378,385 @@
       "quando-sistema-sob-medida-sai-mais-barato-que-saas",
       "manutencao-de-sistema-o-que-entra-na-mensalidade"
     ]
+  },
+  {
+    "slug": "criacao-de-site-em/parnaiba-pi",
+    "serviceName": "Criação de sites",
+    "city": "Parnaíba",
+    "region": "PI",
+    "title": "Criação de sites em Parnaíba, PI — turismo, pousadas e comércio | Zenbit",
+    "description": "Criação de site em Parnaíba: página rápida no celular, galeria que não trava no 4G e contato direto no WhatsApp. Para pousadas, passeios no Delta, restaurantes e lojas.",
+    "kicker": "// criação de sites · parnaíba, pi",
+    "h1": "Criação de sites em Parnaíba",
+    "h1Accent": "para vender antes do cliente chegar.",
+    "heroLead": "Em Parnaíba, boa parte da decisão de compra acontece longe daqui: alguém em Teresina, em São Luís ou em outro estado pesquisa pousada, passeio no Delta ou restaurante semanas antes de viajar. O site existe para ganhar essa busca e transformar a visita em conversa no WhatsApp.",
+    "tags": ["Turismo", "Pousadas e passeios", "Comércio", "SEO local"],
+    "stats": [
+      { "value": "3 sem.", "label": "até o site no ar", "sub": "página única" },
+      { "value": "R$ 2k+", "label": "faixa de investimento", "sub": "conforme escopo" },
+      { "value": "WhatsApp", "label": "canal principal", "sub": "botão em cada seção" }
+    ],
+    "problemsTitle": "O que faz uma reserva ir para o concorrente",
+    "problems": [
+      {
+        "label": "01",
+        "title": "A busca começa fora da cidade",
+        "copy": "Quem vem para o Delta pesquisa de outra capital, com antecedência e no celular. Se o seu negócio não aparece na busca nem no mapa, a decisão é tomada antes de alguém saber que você existe."
+      },
+      {
+        "label": "02",
+        "title": "Perfil de rede social não ranqueia",
+        "copy": "Instagram resolve mostrar o lugar, mas não aparece para quem digita o serviço mais a cidade no Google — e o alcance depende de uma regra que muda sem aviso. Site é o endereço que continua seu."
+      },
+      {
+        "label": "03",
+        "title": "A temporada concentra o erro",
+        "copy": "Na alta estação o movimento de busca sobe de uma vez. Página lenta, galeria pesada ou botão de contato quebrado custam caro justamente na semana em que havia demanda sobrando."
+      }
+    ],
+    "deliverablesTitle": "O que entra no site",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Uma página por atrativo ou serviço",
+        "copy": "Hospedagem, passeio, restaurante e evento em páginas separadas, cada uma com texto próprio. É isso que ranqueia para a busca específica, em vez de uma página só falando de tudo.",
+        "tags": ["SEO on-page", "Conteúdo", "Dados estruturados"]
+      },
+      {
+        "n": "02",
+        "title": "Foto boa que carrega rápido",
+        "copy": "Negócio de litoral vive de imagem, e imagem é o que mais pesa numa página. Redimensionamos, convertemos e carregamos sob demanda — galeria bonita que abre em rede móvel.",
+        "tags": ["Imagens otimizadas", "Galeria", "Core Web Vitals"]
+      },
+      {
+        "n": "03",
+        "title": "Contato com origem identificada",
+        "copy": "Cada botão de WhatsApp já sai com a mensagem escrita e identifica de qual página veio. Você passa a saber se o contato nasceu da página do passeio ou da de hospedagem.",
+        "tags": ["WhatsApp", "GA4", "Conversão"]
+      },
+      {
+        "n": "04",
+        "title": "Perfil do Google alinhado ao site",
+        "copy": "Endereço, telefone e horário iguais no site e no perfil, com mapa e fotos reais. A busca local termina no mapa mais vezes do que no site — os dois precisam contar a mesma história.",
+        "tags": ["Perfil do Google", "Mapa", "Avaliações"]
+      }
+    ],
+    "localTitle": "Quem entende a temporada escreve diferente",
+    "localParagraphs": [
+      "Parnaíba não vende só para quem mora em Parnaíba. O Delta, a Pedra do Sal e a orla puxam gente de fora do estado, e essa pessoa chega ao seu negócio por uma busca feita a centenas de quilômetros daqui — com dúvidas específicas sobre distância, acesso, período e o que dá para fazer em cada época do ano. Site que responde isso ganha a reserva; site que só mostra fotos, não.",
+      "A sazonalidade também muda o calendário do projeto. Colocar um site no ar em pleno pico de temporada é a pior hora possível para mexer em qualquer coisa. Trabalhar com fornecedor que conhece o ritmo daqui significa planejar o lançamento para a baixa estação e chegar pronto na alta."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa um site para pousada ou agência de turismo em Parnaíba?",
+        "a": "Uma página única bem feita, com galeria e contato no WhatsApp, fica entre R$ 2.000 e R$ 5.000. Site com página separada por acomodação ou por passeio, blog e SEO configurado, entre R$ 6.000 e R$ 15.000. A faixa exata sai na primeira conversa, sem custo."
+      },
+      {
+        "q": "Dá para ficar pronto antes da temporada?",
+        "a": "Dá, se começar com antecedência de pelo menos um mês e meio. Uma página única leva cerca de três semanas; um site completo, de quatro a cinco. O que mais atrasa é a chegada de fotos e textos, então esse é o item para adiantar."
+      },
+      {
+        "q": "Já tenho Instagram movimentado. Preciso de site?",
+        "a": "As duas coisas fazem trabalhos diferentes. A rede social mantém quem já te conhece; o site é o que aparece para quem ainda não te conhece e está pesquisando no Google. Quem depende só do perfil fica invisível exatamente na hora da decisão."
+      },
+      {
+        "q": "O site recebe reserva e pagamento online?",
+        "a": "Pode receber, mas quase nunca recomendamos isso na primeira versão. Começar com solicitação de reserva pelo WhatsApp custa menos, converte bem no nosso mercado e evita a complexidade de pagamento e cancelamento antes de existir volume que justifique."
+      },
+      {
+        "q": "Vocês atendem negócios em Luís Correia, Ilha Grande e Cajueiro da Praia?",
+        "a": "Atendemos toda a região do litoral e do Delta. O trabalho é remoto na maior parte do tempo, com visita presencial quando o projeto justifica — em site de turismo, costuma valer a visita para fotografar e entender o percurso real do hóspede."
+      }
+    ],
+    "relatedPosts": [
+      "por-que-seu-site-demora-para-carregar",
+      "seo-local-empresa-de-teresina-aparecer-no-google",
+      "quanto-custa-um-site-profissional-em-2026"
+    ]
+  },
+  {
+    "slug": "criacao-de-site-em/picos-pi",
+    "serviceName": "Criação de sites",
+    "city": "Picos",
+    "region": "PI",
+    "title": "Criação de sites em Picos, PI — catálogo online para comércio e atacado | Zenbit",
+    "description": "Criação de site em Picos: catálogo que você mesmo atualiza, pedido pelo WhatsApp com o produto já preenchido e páginas que aparecem para o comprador de fora da cidade.",
+    "kicker": "// criação de sites · picos, pi",
+    "h1": "Criação de sites em Picos",
+    "h1Accent": "com catálogo que você atualiza sozinho.",
+    "heroLead": "Picos abastece dezenas de municípios da região, e boa parte desse comércio ainda mostra o que vende por print de tabela e foto reenviada no WhatsApp. Um catálogo online organizado tira o atendente do trabalho repetitivo e coloca a sua loja na busca de quem compra de outra cidade.",
+    "tags": ["Catálogo online", "Atacado e varejo", "WhatsApp", "SEO local"],
+    "stats": [
+      { "value": "4 sem.", "label": "com catálogo no ar", "sub": "primeira leva de produtos" },
+      { "value": "R$ 2k+", "label": "faixa de investimento", "sub": "conforme escopo" },
+      { "value": "90 dias", "label": "de garantia", "sub": "sobre o entregue" }
+    ],
+    "problemsTitle": "O custo escondido de vender só pelo WhatsApp",
+    "problems": [
+      {
+        "label": "01",
+        "title": "O catálogo mora na conversa",
+        "copy": "Cada cliente novo recebe o mesmo PDF, a mesma foto, a mesma tabela. É tempo de atendente gasto reenviando o que poderia estar num link — e cliente que desiste enquanto espera a resposta."
+      },
+      {
+        "label": "02",
+        "title": "Quem compra de fora não te acha",
+        "copy": "O lojista da cidade vizinha procura o produto no Google antes de procurar o fornecedor. Sem página de produto, quem aparece é o atacado de outro estado, mesmo custando frete."
+      },
+      {
+        "label": "03",
+        "title": "A tabela desatualiza sozinha",
+        "copy": "Preço muda, produto sai de linha, entra coleção nova. Se qualquer alteração depende de abrir chamado com quem fez o site, a informação envelhece e o cliente perde a confiança."
+      }
+    ],
+    "deliverablesTitle": "Como montamos o catálogo",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Catálogo com busca e categoria",
+        "copy": "Produtos organizados por linha, com busca, foto e descrição. O cliente encontra sozinho o que antes exigia três mensagens e a paciência de um atendente.",
+        "tags": ["Catálogo", "Busca", "Categorias"]
+      },
+      {
+        "n": "02",
+        "title": "Pedido que chega pronto",
+        "copy": "O botão de pedir abre o WhatsApp com produto, código e quantidade já escritos. O atendimento começa sabendo do que se trata, em vez de começar por 'qual item?'.",
+        "tags": ["WhatsApp", "Pedido", "Conversão"]
+      },
+      {
+        "n": "03",
+        "title": "Página por linha de produto",
+        "copy": "Cada linha importante ganha página própria, com texto escrito para o termo que o comprador digita. É o que faz aparecer na busca de quem está a cem quilômetros daqui.",
+        "tags": ["SEO on-page", "Conteúdo"]
+      },
+      {
+        "n": "04",
+        "title": "Painel para você mexer",
+        "copy": "Preço, foto e disponibilidade atualizáveis por quem trabalha na loja, sem depender de chamado. Fazemos o treinamento e deixamos o passo a passo escrito.",
+        "tags": ["Painel", "Treinamento", "Autonomia"]
+      }
+    ],
+    "localTitle": "Comércio que atende muito além da cidade",
+    "localParagraphs": [
+      "Picos é entroncamento: quem tem loja aqui vende para uma região inteira, e uma parte relevante dos clientes decide a compra antes de sair de casa, pesquisando no celular. Essa é a diferença entre um site institucional bonito e um catálogo que trabalha — o primeiro fala da empresa, o segundo aparece na busca pelo produto e já entrega o pedido pronto no WhatsApp.",
+      "Vale dizer o que costuma não valer a pena aqui: montar loja virtual completa, com pagamento e frete, logo de cara. No comércio da região a negociação ainda passa por conversa, prazo e condição combinada caso a caso. Catálogo mais WhatsApp converte melhor, custa uma fração e pode virar loja completa depois, quando o volume justificar."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa um site com catálogo em Picos?",
+        "a": "Um catálogo com até algumas dezenas de produtos, painel de atualização e pedido pelo WhatsApp costuma ficar entre R$ 5.000 e R$ 12.000, dependendo da quantidade de linhas e de quanto conteúdo precisa ser produzido. Site institucional simples, sem catálogo, começa em R$ 2.000."
+      },
+      {
+        "q": "Eu mesmo consigo cadastrar produto e mudar preço?",
+        "a": "Sim, e essa é a parte que mais importa no projeto. Entregamos com painel, treinamento e um passo a passo escrito. Site de comércio em que só o fornecedor consegue mexer envelhece em dois meses."
+      },
+      {
+        "q": "Preciso de loja virtual com pagamento online?",
+        "a": "Na maioria dos casos, não no começo. Se a sua venda depende de negociação, prazo e condição por cliente, catálogo com pedido pelo WhatsApp resolve melhor e custa muito menos. A loja completa faz sentido quando o volume e a padronização já existem."
+      },
+      {
+        "q": "O site conversa com o meu sistema de estoque?",
+        "a": "Quando o seu sistema oferece integração, sim — e isso evita o pior problema de catálogo online, que é anunciar o que acabou. Quando não oferece, começamos com atualização manual e avaliamos a integração depois."
+      },
+      {
+        "q": "Atendem lojas de cidades vizinhas?",
+        "a": "Atendemos toda a região. O trabalho é remoto por padrão, com chamada semanal fixa, e presencial quando a fase do projeto justifica — fotografar produto, por exemplo, costuma render mais no local."
+      }
+    ],
+    "relatedPosts": [
+      "quanto-custa-um-site-profissional-em-2026",
+      "integracao-whatsapp-para-empresas-do-piaui",
+      "da-planilha-para-o-sistema-sinais"
+    ]
+  },
+  {
+    "slug": "criacao-de-site-em/floriano-pi",
+    "serviceName": "Criação de sites",
+    "city": "Floriano",
+    "region": "PI",
+    "title": "Criação de sites em Floriano, PI — clínicas, escolas e serviços | Zenbit",
+    "description": "Criação de site em Floriano: informação clara de especialidade, endereço e horário, agendamento pelo WhatsApp e presença na busca de quem vem de toda a região.",
+    "kicker": "// criação de sites · floriano, pi",
+    "h1": "Criação de sites em Floriano",
+    "h1Accent": "para quem é procurado antes de ser escolhido.",
+    "heroLead": "Clínica, consultório, escola, escritório: em Floriano, esse tipo de serviço é pesquisado antes de ser contratado. O site precisa responder rápido o que a pessoa quer saber — o que você faz, onde fica, quando atende e como marcar — sem obrigar ninguém a mandar mensagem para descobrir o básico.",
+    "tags": ["Saúde", "Educação", "Serviços", "Agendamento"],
+    "stats": [
+      { "value": "2 a 4", "label": "semanas até o ar", "sub": "site institucional" },
+      { "value": "R$ 2k+", "label": "faixa de investimento", "sub": "conforme escopo" },
+      { "value": "0", "label": "plataforma paga de agenda", "sub": "agendamento pelo WhatsApp" }
+    ],
+    "problemsTitle": "Onde esse tipo de serviço perde cliente",
+    "problems": [
+      {
+        "label": "01",
+        "title": "A informação básica está escondida",
+        "copy": "Especialidade, endereço, horário e formas de pagamento não aparecem em lugar nenhum, e a pessoa precisa mandar mensagem só para saber se você atende o que ela procura. Boa parte não manda."
+      },
+      {
+        "label": "02",
+        "title": "A agenda vive no caderno e no WhatsApp",
+        "copy": "Marcação por mensagem, remarcação por telefone e nenhum registro que junte as duas coisas. O custo aparece em horário vago que ninguém preencheu e em falta sem aviso."
+      },
+      {
+        "label": "03",
+        "title": "A região não sabe que você atende",
+        "copy": "A área de influência de Floriano passa por vários municípios e atravessa o rio até o lado maranhense. Se o site não diz de onde vêm seus pacientes ou alunos, quem está fora supõe que não é para ele."
+      }
+    ],
+    "deliverablesTitle": "O que entregamos",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Uma página por especialidade ou curso",
+        "copy": "Cada serviço com texto próprio, explicando para quem é, como funciona e o que a pessoa precisa levar. É o que responde a dúvida e o que ranqueia para a busca específica.",
+        "tags": ["SEO on-page", "Conteúdo", "Dados estruturados"]
+      },
+      {
+        "n": "02",
+        "title": "Agendamento sem plataforma paga",
+        "copy": "Botão que abre o WhatsApp com o serviço e o horário desejado já escritos, direcionado para quem cuida da agenda. Resolve a maior parte dos casos sem mensalidade de sistema de marcação.",
+        "tags": ["WhatsApp", "Agenda", "Conversão"]
+      },
+      {
+        "n": "03",
+        "title": "O prático em primeiro plano",
+        "copy": "Endereço com mapa, horário real de atendimento, telefone, convênios ou formas de pagamento — no alto da página, não escondido num rodapé de página de contato.",
+        "tags": ["Mapa", "Horários", "Perfil do Google"]
+      },
+      {
+        "n": "04",
+        "title": "Formulário que respeita a LGPD",
+        "copy": "Formulário não é lugar para dado sensível de paciente ou de aluno menor de idade. Pedimos o mínimo necessário para o contato e deixamos o resto para o canal adequado, com aviso de privacidade claro.",
+        "tags": ["LGPD", "Privacidade", "Formulários"]
+      }
+    ],
+    "localTitle": "Um polo que atende dos dois lados do rio",
+    "localParagraphs": [
+      "Floriano é referência regional em saúde e educação, e faz par com Barão de Grajaú, do outro lado do rio Parnaíba, já no Maranhão. Isso significa que uma parte do seu público não é da cidade: são pessoas decidindo se vale a viagem. Site que informa distância, horário, o que levar e como marcar tira a insegurança que faz alguém adiar a consulta ou a matrícula.",
+      "Também significa que a busca genérica pesa menos do que a busca específica. Aparecer para o nome do serviço mais a cidade vale mais que aparecer para um termo amplo — e é isso que uma página por especialidade resolve, uma coisa que site de página única não consegue fazer."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa um site para clínica ou escola em Floriano?",
+        "a": "Site institucional com página por especialidade ou curso, mapa, horários e agendamento pelo WhatsApp fica entre R$ 4.000 e R$ 12.000, conforme a quantidade de páginas e de conteúdo a escrever. Uma página única e enxuta começa em R$ 2.000."
+      },
+      {
+        "q": "Preciso contratar um sistema de agendamento?",
+        "a": "Na maior parte dos casos, não. O botão que abre o WhatsApp já com o serviço e o horário preenchidos resolve bem e não tem mensalidade. Sistema de agenda com confirmação automática faz sentido quando o volume de marcações já pesa na rotina de quem atende."
+      },
+      {
+        "q": "Posso pedir dados do paciente no formulário do site?",
+        "a": "Só o mínimo para retornar o contato: nome e telefone. Informação de saúde é dado sensível pela LGPD e não deve trafegar por formulário comum nem por mensagem. Deixamos isso explícito no site e no aviso de privacidade."
+      },
+      {
+        "q": "Dá para publicar notícias, avisos e calendário?",
+        "a": "Dá, e para escola costuma valer muito: calendário, lista de material e comunicados numa página que os pais consultam sozinhos reduzem bastante a mensagem repetida na secretaria."
+      },
+      {
+        "q": "Vocês atendem Barão de Grajaú e municípios da região?",
+        "a": "Sim. O trabalho é remoto por padrão, com chamada semanal fixa e o board aberto, e presencial quando a fase justifica. A distância não muda o processo nem o preço."
+      }
+    ],
+    "relatedPosts": [
+      "integracao-whatsapp-para-empresas-do-piaui",
+      "seo-local-empresa-de-teresina-aparecer-no-google",
+      "manutencao-de-sistema-o-que-entra-na-mensalidade"
+    ]
+  },
+  {
+    "slug": "criacao-de-site-em/campo-maior-pi",
+    "serviceName": "Criação de sites",
+    "city": "Campo Maior",
+    "region": "PI",
+    "title": "Criação de sites em Campo Maior, PI — presença digital para empresa local | Zenbit",
+    "description": "Criação de site em Campo Maior: site enxuto e rápido, perfil do Google configurado e página do seu produto escrita para quem procura de fora da cidade.",
+    "kicker": "// criação de sites · campo maior, pi",
+    "h1": "Criação de sites em Campo Maior",
+    "h1Accent": "para existir fora do boca a boca.",
+    "heroLead": "Em Campo Maior, muita empresa boa tem trinta anos de mercado e nenhuma linha no Google. Enquanto o cliente é de casa, a indicação resolve. O problema aparece quando quem procura é de fora — de Teresina, de outro estado, ou um cliente novo que não conhece ninguém que possa indicar você.",
+    "tags": ["Agronegócio", "Comércio local", "Perfil do Google", "Site enxuto"],
+    "stats": [
+      { "value": "3 sem.", "label": "até o site no ar", "sub": "site enxuto" },
+      { "value": "R$ 2k+", "label": "faixa de investimento", "sub": "conforme escopo" },
+      { "value": "100%", "label": "do código e do domínio", "sub": "na sua conta" }
+    ],
+    "problemsTitle": "O que acontece quando a empresa só existe offline",
+    "problems": [
+      {
+        "label": "01",
+        "title": "A indicação não alcança quem é de fora",
+        "copy": "Boca a boca é o melhor canal que existe — e o único que não funciona para quem ainda não conhece ninguém do seu círculo. Esse cliente começa a busca no Google, e ali você não está."
+      },
+      {
+        "label": "02",
+        "title": "O comprador quer ver antes de ligar",
+        "copy": "Quem compra produção, matéria-prima ou serviço de outra cidade quer ver o que você faz, em que escala e com que padrão, antes de gastar uma ligação. Sem isso, a lista de fornecedores nem chega em você."
+      },
+      {
+        "label": "03",
+        "title": "O perfil do Google está desatualizado",
+        "copy": "Horário errado, endereço antigo, telefone que mudou, nenhuma foto. A maior parte da busca local termina no mapa — e um perfil abandonado afasta mais do que a ausência dele."
+      }
+    ],
+    "deliverablesTitle": "O que fazemos",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Site enxuto, sem gordura",
+        "copy": "Uma a três páginas dizendo com clareza o que a empresa faz, para quem, e como contratar. Empresa pequena não precisa de site grande — precisa de site rápido e com a informação certa.",
+        "tags": ["Site institucional", "Performance"]
+      },
+      {
+        "n": "02",
+        "title": "Perfil do Google configurado",
+        "copy": "Categoria correta, endereço, horário, fotos reais e serviços listados, com os mesmos dados do site. É o passo de maior retorno para empresa local, e o mais mal feito no geral.",
+        "tags": ["Perfil do Google", "Mapa", "Avaliações"]
+      },
+      {
+        "n": "03",
+        "title": "Página do que você vende",
+        "copy": "O produto ou serviço principal ganha uma página escrita para o termo que o comprador de fora digita, com capacidade, prazo e forma de contato — não só uma foto e um telefone.",
+        "tags": ["SEO on-page", "Conteúdo"]
+      },
+      {
+        "n": "04",
+        "title": "Autonomia depois da entrega",
+        "copy": "Domínio e hospedagem na conta da empresa, texto e foto atualizáveis por você, e o passo a passo escrito. Nada de precisar de chamado para trocar um número de telefone.",
+        "tags": ["Domínio próprio", "Autonomia", "Treinamento"]
+      }
+    ],
+    "localTitle": "Perto de Teresina, com o mercado da região",
+    "localParagraphs": [
+      "A economia de Campo Maior é ligada à terra: pecuária, extrativismo da carnaúba, comércio que atende a cidade e os municípios em volta. É um perfil de cliente que quase nunca precisa de sistema grande, mas ganha muito com o básico bem feito — ser encontrado, mostrar o que produz e ter um canal de contato que funciona no celular.",
+      "A proximidade com Teresina ajuda na prática: dá para ir e voltar no mesmo dia quando o projeto pede reunião presencial, visita para fotografar ou treinamento com a equipe. Isso costuma custar caro com fornecedor de fora, quando é que possível."
+    ],
+    "faq": [
+      {
+        "q": "Vale a pena ter site em cidade pequena?",
+        "a": "Vale quando parte dos seus clientes vem de fora, ou quando você quer clientes novos que não chegam por indicação. Se cem por cento da sua receita vem de gente que já te conhece e a demanda é maior que a capacidade, site é opcional — e a gente diz isso na primeira conversa."
+      },
+      {
+        "q": "Quanto custa para uma empresa pequena?",
+        "a": "Um site enxuto de uma a três páginas, rápido e com perfil do Google configurado, fica entre R$ 2.000 e R$ 5.000. Não trabalhamos com mensalidade obrigatória: hospedagem e domínio ficam na sua conta e o custo mensal é claro antes de começar."
+      },
+      {
+        "q": "O perfil do Google não resolve sozinho?",
+        "a": "Resolve boa parte, e é o primeiro passo mesmo. Mas o perfil não conta a sua história, não mostra catálogo e não ranqueia para busca de produto. O site é o que sustenta o perfil e recebe quem quer saber mais antes de ligar."
+      },
+      {
+        "q": "Em quanto tempo fica pronto?",
+        "a": "Cerca de três semanas para um site enxuto, contando revisão dos textos. O prazo depende principalmente da velocidade com que chegam as fotos e as informações da empresa."
+      },
+      {
+        "q": "Vocês atendem empresas dos municípios da região?",
+        "a": "Sim, incluindo Piripiri, Altos e as cidades no entorno. O trabalho é remoto por padrão, e a proximidade com Teresina facilita a visita presencial quando o projeto justifica."
+      }
+    ],
+    "relatedPosts": [
+      "seo-local-empresa-de-teresina-aparecer-no-google",
+      "criacao-de-site-em-teresina-local-ou-de-fora",
+      "por-que-seu-site-demora-para-carregar"
+    ]
   }
 ]

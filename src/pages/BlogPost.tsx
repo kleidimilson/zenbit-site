@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { getPostBySlug, getRelatedPosts, formatPostDate } from '@/lib/blog';
-import { localPages } from '@/lib/local-pages';
+import { getLocalPagesInCity, MAIN_CITY } from '@/lib/local-pages';
 import { SITE_URL, WHATSAPP_URL } from '@/lib/constants';
 
 export function BlogPost() {
@@ -118,7 +118,7 @@ export function BlogPost() {
             <div className="post-cta-links">
               <span className="footer-col-label">O que fazemos</span>
               <ul>
-                {localPages.map(page => (
+                {getLocalPagesInCity(MAIN_CITY).map(page => (
                   <li key={page.slug}>
                     <Link to={`/${page.slug}/`}>
                       {page.serviceName} em {page.city} →

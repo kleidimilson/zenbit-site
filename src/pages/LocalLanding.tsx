@@ -6,7 +6,12 @@ import { FAQ } from '@/components/FAQ';
 import { CtaSection } from '@/components/CtaSection';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { SITE_URL, WHATSAPP_URL } from '@/lib/constants';
-import { getLocalPageBySlug, getOtherLocalPages, localPageUrl } from '@/lib/local-pages';
+import {
+  getLocalPageBySlug,
+  getLocalPagesInCity,
+  getCityHighlights,
+  localPageUrl,
+} from '@/lib/local-pages';
 import { getPostBySlug, formatPostDate } from '@/lib/blog';
 
 export function LocalLanding() {
@@ -34,7 +39,8 @@ export function LocalLanding() {
   const relatedPosts = page.relatedPosts
     .map(slug => getPostBySlug(slug))
     .filter((post): post is NonNullable<typeof post> => Boolean(post));
-  const otherPages = getOtherLocalPages(page.slug);
+  const sameCityPages = getLocalPagesInCity(page.city, page.slug);
+  const otherCityPages = getCityHighlights(page.city, page.serviceName);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -256,27 +262,53 @@ export function LocalLanding() {
         </section>
       )}
 
-      <section className="local-block">
-        <div className="wrap">
-          <div className="section-header">
-            <span className="section-label">// 06 — também fazemos</span>
-            <h2>
-              Outros serviços <span className="muted">em {page.city}.</span>
-            </h2>
+      {sameCityPages.length > 0 && (
+        <section className="local-block">
+          <div className="wrap">
+            <div className="section-header">
+              <span className="section-label">// 06 — também fazemos</span>
+              <h2>
+                Outros serviços <span className="muted">em {page.city}.</span>
+              </h2>
+            </div>
+            <div className="local-links">
+              {sameCityPages.map(other => (
+                <Link key={other.slug} to={`/${other.slug}/`} className="local-link">
+                  <span className="local-link-title">
+                    {other.serviceName} em {other.city}
+                  </span>
+                  <span className="mono-dim">{other.tags.slice(0, 3).join(' · ')}</span>
+                  <span className="insight-read">ver página →</span>
+                </Link>
+              ))}
+            </div>
           </div>
-          <div className="local-links">
-            {otherPages.map(other => (
-              <Link key={other.slug} to={`/${other.slug}/`} className="local-link">
-                <span className="local-link-title">
-                  {other.serviceName} em {other.city}
-                </span>
-                <span className="mono-dim">{other.tags.slice(0, 3).join(' · ')}</span>
-                <span className="insight-read">ver página →</span>
-              </Link>
-            ))}
+        </section>
+      )}
+
+      {otherCityPages.length > 0 && (
+        <section className="local-block">
+          <div className="wrap">
+            <div className="section-header">
+              <span className="section-label">// 07 — onde atendemos</span>
+              <h2>
+                Também atendemos <span className="muted">estas cidades.</span>
+              </h2>
+            </div>
+            <div className="local-links">
+              {otherCityPages.map(other => (
+                <Link key={other.slug} to={`/${other.slug}/`} className="local-link">
+                  <span className="local-link-title">
+                    {other.serviceName} em {other.city}
+                  </span>
+                  <span className="mono-dim">{other.tags.slice(0, 3).join(' · ')}</span>
+                  <span className="insight-read">ver página →</span>
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <CtaSection />
       <Footer />
