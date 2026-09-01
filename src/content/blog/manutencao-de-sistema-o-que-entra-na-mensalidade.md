@@ -33,3 +33,5 @@ Cobrar por hora avulsa também funciona, e é honesto para sistemas estáveis. O
 Antes de assinar, peça para o fornecedor descrever um exemplo concreto de cada lado: um pedido que estaria coberto pela mensalidade e um que geraria orçamento. Se ele não consegue dar os dois exemplos rapidamente, o contrato ainda não está claro para nenhum dos dois.
 
 **Regra prática:** contrato de manutenção sem monitoramento e sem backup testado não é manutenção, é atendimento sob demanda com nome bonito.
+
+Essa é uma das [sete perguntas que vale fazer antes de assinar com qualquer software house](/blog/software-house-em-teresina-como-escolher). Se o sistema ainda vai ser construído, o assunto entra desde o começo em [desenvolvimento de software sob medida](/desenvolvimento-de-software-em/teresina-pi/).

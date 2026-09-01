@@ -30,3 +30,5 @@ Os estudos de mercado repetem o mesmo padrão há anos: cada segundo a mais de c
 Não é preciso decorar número: se o seu site demora mais de três segundos para mostrar algo útil no 4G, você está pagando por isso em visitas perdidas. E em busca local — alguém procurando um serviço em Teresina, no celular, no meio da rua — a paciência é ainda menor que a média.
 
 **Como medir hoje:** abra o PageSpeed Insights, rode a análise na versão mobile e olhe primeiro o peso total das imagens. Em 8 de 10 sites, o problema começa ali.
+
+Velocidade é só uma parte do que faz aparecer na busca — o resto está em [como ranquear na busca local de Teresina](/blog/seo-local-empresa-de-teresina-aparecer-no-google). E se o site já não tem conserto barato, [refazer costuma sair mais em conta](/criacao-de-site-em/teresina-pi/) do que remendar.

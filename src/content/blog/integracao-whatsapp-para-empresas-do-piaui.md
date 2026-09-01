@@ -38,3 +38,5 @@ Disparo em massa para lista comprada, então, junta os dois problemas: bloqueio 
 Começar pelo item 3 é o erro mais comum. Sem os dois primeiros, sobra custo de plataforma e nenhuma medição de retorno.
 
 **Resumo:** se a dúvida é "vale integrar?", a resposta depende de existir mensagem que hoje alguém digita à mão, todo dia, sempre igual. Se existe, a integração se paga. Se não, o link basta.
+
+Mensagem repetida à mão costuma vir junto de [dado que ainda mora numa planilha](/blog/da-planilha-para-o-sistema-sinais). Quando os dois problemas aparecem juntos, o caminho é [desenvolvimento sob medida](/desenvolvimento-de-software-em/teresina-pi/) resolvendo a origem, não só o envio.

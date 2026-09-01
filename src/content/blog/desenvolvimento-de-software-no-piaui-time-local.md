@@ -32,3 +32,5 @@ O mercado local é menor, e isso tem consequências: menos especialista em nicho
 Vale dizer o óbvio: somos parte interessada nessa análise. Mas o argumento não é "contrate local por bairrismo" — é que a diferença técnica que justificava buscar fora deixou de existir na maior parte dos projetos de sistema empresarial.
 
 **Como testar isso sem risco:** contrate um diagnóstico pequeno e pago — levantamento de escopo, protótipo de uma tela — antes do projeto inteiro. Duas semanas de trabalho real dizem mais sobre um fornecedor do que qualquer proposta comercial.
+
+Se for avaliar fornecedores agora, use [as sete perguntas antes de assinar com uma software house](/blog/software-house-em-teresina-como-escolher) — e veja como fazemos [desenvolvimento de software em Teresina](/desenvolvimento-de-software-em/teresina-pi/).

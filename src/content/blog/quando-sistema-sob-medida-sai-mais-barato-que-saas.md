@@ -26,3 +26,5 @@ Sistema sob medida não é bala de prata. Se o seu processo é genérico — um 
 A conta muda quando a sua operação tem uma regra específica que nenhum SaaS do mercado cobre direito, ou quando os módulos que você realmente usa são uma fração pequena do que está pagando.
 
 **Resumo prático:** se você está pagando por um SaaS há mais de 18 meses e só usa 30% das funcionalidades, vale fazer essa conta.
+
+Se o ponto de partida ainda é planilha e não SaaS, comece por [os cinco sinais de que passou da hora de sair do Excel](/blog/da-planilha-para-o-sistema-sinais). E veja como conduzimos projetos de [sistema de gestão sob medida em Teresina](/sistema-de-gestao-em/teresina-pi/).

@@ -31,6 +31,8 @@ Abaixo da primeira faixa, quase sempre é template revendido sem ajuste. Não é
 
 Depois do lançamento vem hospedagem, domínio, certificado, atualização de dependência, correção de bug e mudança de conteúdo. Proposta que não menciona nada disso não é mais barata: ela só empurrou o custo para depois, geralmente para um momento em que você não tem mais o contato de quem fez.
 
-Pergunte sempre três coisas antes de fechar: quem hospeda, quem tem acesso ao código e quanto custa mudar uma página daqui a seis meses.
+Pergunte sempre três coisas antes de fechar: quem hospeda, quem tem acesso ao código e quanto custa mudar uma página daqui a seis meses. Escrevemos em detalhe sobre [o que deveria estar num contrato de manutenção](/blog/manutencao-de-sistema-o-que-entra-na-mensalidade) — e vale ler antes de assinar.
+
+Se o que você precisa é exatamente isso, veja como trabalhamos em [criação de sites em Teresina](/criacao-de-site-em/teresina-pi/).
 
 **Regra prática:** compare propostas pelo que elas incluem depois do lançamento, não pelo número que está na primeira página.

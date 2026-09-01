@@ -29,10 +29,12 @@ As buscas que trazem cliente não são só as de intenção direta. São também
 
 ## 5. Velocidade e celular
 
-A maioria das buscas locais no Piauí vem de celular, boa parte em rede móvel. Site pesado perde a visita antes de carregar, e velocidade entra no ranqueamento. Peso de imagem e excesso de script de terceiro são, de longe, as duas maiores causas.
+A maioria das buscas locais no Piauí vem de celular, boa parte em rede móvel. Site pesado perde a visita antes de carregar, e velocidade entra no ranqueamento. Peso de imagem e excesso de script de terceiro são, de longe, [as duas maiores causas de site lento](/blog/por-que-seu-site-demora-para-carregar).
 
 ## O prazo real
 
 SEO local dá sinal em 30 a 60 dias no perfil do Google e em 3 a 6 meses nas páginas do site. É lento comparado a anúncio, mas o tráfego não para quando você para de pagar.
 
 **Por onde começar esta semana:** complete o perfil do Google, peça cinco avaliações e publique uma página específica para o seu serviço principal em Teresina. Só isso já coloca a maior parte das empresas locais à frente da concorrência.
+
+Se a parte do site for o gargalo, é exatamente o que fazemos em [criação de sites em Teresina](/criacao-de-site-em/teresina-pi/) — com a estrutura de busca já montada.

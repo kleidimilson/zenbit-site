@@ -23,7 +23,7 @@ Se a resposta for "na entrega", o risco é todo seu. Ciclo de demonstração cur
 
 ## 4. O que acontece se aparecer um bug depois da entrega?
 
-Prazo de garantia, canal de suporte e tempo de resposta. Por escrito. Fornecedor que trata isso como detalhe está vendendo só a parte fácil do trabalho.
+Prazo de garantia, canal de suporte e tempo de resposta. Por escrito. Fornecedor que trata isso como detalhe está vendendo só a parte fácil do trabalho — veja [o que deveria estar incluído na mensalidade de manutenção](/blog/manutencao-de-sistema-o-que-entra-na-mensalidade).
 
 ## 5. Quanto custa mudar de ideia no meio?
 

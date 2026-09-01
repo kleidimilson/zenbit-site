@@ -27,6 +27,6 @@ Prazo curto não é pressa: é um limite que força a escolha. Escopo com prazo 
 
 Com seis semanas, a primeira versão vai para a mão de alguém enquanto ainda é barato mudar de ideia.
 
-Para empresa pequena e média — o perfil da maior parte dos nossos clientes no Piauí — isso importa ainda mais: o orçamento não comporta descobrir no sexto mês que o sistema resolveu o problema errado.
+Para empresa pequena e média — o perfil da maior parte dos nossos clientes no Piauí — isso importa ainda mais: o orçamento não comporta descobrir no sexto mês que o sistema resolveu o problema errado. É assim que conduzimos todo [desenvolvimento de software sob medida em Teresina](/desenvolvimento-de-software-em/teresina-pi/): primeira versão curta, validada com usuário real.
 
 **O teste que aplicamos em cada item da lista:** se essa funcionalidade não existir na primeira versão, o usuário trava ou só fica incomodado? Trava, entra. Incomoda, espera.

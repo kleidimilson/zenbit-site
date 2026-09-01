@@ -26,3 +26,14 @@ export function formatPostDate(date: string): string {
   const [year, month] = date.split('-').map(Number);
   return `${monthNames[month - 1]} ${year}`;
 }
+
+/** Same-category posts first, then the most recent ones — used for internal linking. */
+export function getRelatedPosts(slug: string, count = 3): BlogPost[] {
+  const current = getPostBySlug(slug);
+  if (!current) return [];
+  const others = posts.filter(post => post.slug !== slug);
+  return [
+    ...others.filter(post => post.category === current.category),
+    ...others.filter(post => post.category !== current.category),
+  ].slice(0, count);
+}

@@ -2,8 +2,9 @@ import { Head } from 'vite-react-ssg';
 import { Link, useParams } from 'react-router-dom';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { getPostBySlug, formatPostDate } from '@/lib/blog';
-import { SITE_URL } from '@/lib/constants';
+import { getPostBySlug, getRelatedPosts, formatPostDate } from '@/lib/blog';
+import { localPages } from '@/lib/local-pages';
+import { SITE_URL, WHATSAPP_URL } from '@/lib/constants';
 
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -27,6 +28,7 @@ export function BlogPost() {
   }
 
   const postUrl = `${SITE_URL}/blog/${post.slug}`;
+  const related = getRelatedPosts(post.slug, 3);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -36,8 +38,16 @@ export function BlogPost() {
         headline: post.title,
         description: post.excerpt,
         datePublished: post.date,
+        dateModified: post.date,
+        inLanguage: 'pt-BR',
+        articleSection: post.category,
+        image: `${SITE_URL}/logo.png`,
         author: { '@type': 'Organization', name: 'Zenbit Softhouse' },
-        publisher: { '@type': 'Organization', name: 'Zenbit Softhouse' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Zenbit Softhouse',
+          logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
+        },
         mainEntityOfPage: postUrl,
       },
       {
@@ -61,6 +71,11 @@ export function BlogPost() {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:url" content={postUrl} />
+        <meta property="og:image" content={`${SITE_URL}/logo.png`} />
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="article:published_time" content={post.date} />
+        <meta property="article:section" content={post.category} />
+        <meta name="twitter:card" content="summary_large_image" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Head>
 
@@ -82,8 +97,65 @@ export function BlogPost() {
           </div>
 
           <div className="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+          <aside className="post-cta">
+            <div>
+              <span className="accent-label">// zenbit · teresina, pi</span>
+              <h2>Tem um projeto parecido na mesa?</h2>
+              <p>
+                Somos uma software house em Teresina. Conversa de 30 minutos, sem proposta no fim da
+                chamada — se a gente não for o time certo, dizemos e indicamos quem é.
+              </p>
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="btn primary"
+              >
+                Falar no WhatsApp <span className="arrow">↗</span>
+              </a>
+            </div>
+            <div className="post-cta-links">
+              <span className="footer-col-label">O que fazemos</span>
+              <ul>
+                {localPages.map(page => (
+                  <li key={page.slug}>
+                    <Link to={`/${page.slug}/`}>
+                      {page.serviceName} em {page.city} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </aside>
         </div>
       </article>
+
+      {related.length > 0 && (
+        <section className="insights">
+          <div className="wrap">
+            <div className="services-header">
+              <span className="section-label">// leia também</span>
+              <h2>
+                Outros textos <span className="muted">na mesma linha.</span>
+              </h2>
+              <Link to="/blog" className="mono-dim insights-see-all">
+                Ver tudo ↗
+              </Link>
+            </div>
+            <div className="insights-list">
+              {related.map(item => (
+                <Link key={item.slug} to={`/blog/${item.slug}`} className="insight-row">
+                  <span className="tech-tag insight-category">{item.category}</span>
+                  <span className="insight-date mono-dim">{formatPostDate(item.date)}</span>
+                  <span className="insight-title">{item.title}</span>
+                  <span className="insight-read">{item.readingTime} min de leitura →</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <Footer />
     </>

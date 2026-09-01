@@ -1,4 +1,7 @@
+import { Link } from 'react-router-dom';
 import { WHATSAPP_NUMBER } from '@/lib/constants';
+import { localPages } from '@/lib/local-pages';
+import { getLatestPosts } from '@/lib/blog';
 
 const ZMark = () => (
   <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
@@ -13,65 +16,88 @@ const ZMark = () => (
   </svg>
 );
 
-export const Footer = () => (
-  <footer>
-    <div className="wrap">
-      <div className="footer-wordmark">
-        <span>
-          Zenbit<span className="footer-wordmark-accent">.</span>
-        </span>
-        <span className="footer-since">↗ desde 2018</span>
-      </div>
+export const Footer = () => {
+  const latestPosts = getLatestPosts(3);
 
-      <div className="footer-grid">
-        <div className="footer-about">
-          <div className="footer-about-logo">
-            <ZMark />
-            <span className="mono-dim" style={{ color: 'var(--ink-2)' }}>
-              Zenbit Tech LTDA
-            </span>
+  return (
+    <footer>
+      <div className="wrap">
+        <div className="footer-wordmark">
+          <span>
+            Zenbit<span className="footer-wordmark-accent">.</span>
+          </span>
+          <span className="footer-since">↗ desde 2018</span>
+        </div>
+
+        <div className="footer-grid">
+          <div className="footer-about">
+            <div className="footer-about-logo">
+              <ZMark />
+              <span className="mono-dim" style={{ color: 'var(--ink-2)' }}>
+                Zenbit Tech LTDA
+              </span>
+            </div>
+            <p>
+              Software house em Teresina, Piauí, focada em sistemas, sites e aplicativos sob medida
+              para empresas que precisam de algo específico.
+            </p>
           </div>
-          <p>
-            Software-house brasileira focada em produtos sob medida para empresas que precisam de
-            algo específico.
-          </p>
+
+          <div className="footer-col">
+            <div className="footer-col-label">Serviços em Teresina</div>
+            <ul>
+              {localPages.map(page => (
+                <li key={page.slug}>
+                  <Link to={`/${page.slug}/`}>{page.serviceName}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-col">
+            <div className="footer-col-label">Conteúdo</div>
+            <ul>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+              {latestPosts.map(post => (
+                <li key={post.slug} className="footer-post-link">
+                  <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-col">
+            <div className="footer-col-label">Contato</div>
+            <ul>
+              <li>
+                <a href="mailto:contato@zenbit.com.br">contato@zenbit.com.br</a>
+              </li>
+              <li>
+                <a
+                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  +55 86 9 9420-1843
+                </a>
+              </li>
+              <li>
+                <a href="/#sobre">Sobre a Zenbit</a>
+              </li>
+              <li>
+                <a href="/#contato">Teresina, PI</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div className="footer-col">
-          <div className="footer-col-label">Zenbit</div>
-          <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#">Time</a></li>
-            <li><a href="#">Carreira</a></li>
-            <li><a href="#">Manifesto</a></li>
-          </ul>
-        </div>
-
-        <div className="footer-col">
-          <div className="footer-col-label">Trabalho</div>
-          <ul>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Clientes</a></li>
-            <li><a href="#">Estudos de caso</a></li>
-            <li><a href="#">Stack</a></li>
-          </ul>
-        </div>
-
-        <div className="footer-col">
-          <div className="footer-col-label">Contato</div>
-          <ul>
-            <li><a href="mailto:contato@zenbit.com.br">contato@zenbit.com.br</a></li>
-            <li><a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer noopener">+55 86 9 9420-1843</a></li>
-            <li><a href="#contato">Teresina, PI</a></li>
-            <li><a href="#">LinkedIn</a></li>
-          </ul>
+        <div className="footer-bottom">
+          <span className="mono-dim">© 2026 Zenbit</span>
+          <span className="mono-dim">feito com café &amp; make · Teresina, PI</span>
         </div>
       </div>
-
-      <div className="footer-bottom">
-        <span className="mono-dim">© 2026 Zenbit</span>
-        <span className="mono-dim">feito com café &amp; make · Teresina, PI</span>
-      </div>
-    </div>
-  </footer>
-);
+    </footer>
+  );
+};

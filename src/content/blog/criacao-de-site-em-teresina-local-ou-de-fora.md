@@ -31,4 +31,6 @@ Três coisas concretas, e nenhuma delas é "atendimento humanizado":
 
 Independente de onde esteja o fornecedor, o que prevê o resultado é a frequência com que você vê o trabalho andando. Agência de fora com demonstração semanal é melhor que fornecedor local que some por um mês.
 
-**Na prática:** peça a cada candidato o cronograma de entregas parciais. Quem não consegue descrever o que você vai ver na segunda semana provavelmente também não sabe.
+**Na prática:** peça a cada candidato o cronograma de entregas parciais. Quem não consegue descrever o que você vai ver na segunda semana provavelmente também não sabe — é por isso que [entregamos demonstração toda sexta](/blog/demo-toda-sexta-mesmo-sem-novidade).
+
+Para comparar propostas com números na mão, veja [quanto custa um site profissional em 2026](/blog/quanto-custa-um-site-profissional-em-2026) ou o que entregamos em [criação de sites em Teresina](/criacao-de-site-em/teresina-pi/).

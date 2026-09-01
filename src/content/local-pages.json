@@ -1,0 +1,382 @@
+[
+  {
+    "slug": "criacao-de-site-em/teresina-pi",
+    "serviceName": "Criação de sites",
+    "city": "Teresina",
+    "region": "PI",
+    "title": "Criação de sites em Teresina, PI — sites que ranqueiam e vendem | Zenbit",
+    "description": "Criação de site profissional em Teresina: código próprio, performance no celular, SEO local configurado e integração com WhatsApp. Orçamento em 1 dia útil.",
+    "kicker": "// criação de sites · teresina, pi",
+    "h1": "Criação de sites em Teresina",
+    "h1Accent": "que trazem cliente, não só elogio.",
+    "heroLead": "Site institucional, landing page e catálogo para empresas de Teresina e do interior do Piauí. Feito em código, não em construtor de página — para carregar rápido no 4G, aparecer na busca local e mandar o contato direto no seu WhatsApp.",
+    "tags": ["Site institucional", "Landing page", "SEO local", "WhatsApp"],
+    "stats": [
+      { "value": "2 a 5", "label": "semanas até o ar", "sub": "site institucional" },
+      { "value": "R$ 2k+", "label": "faixa de investimento", "sub": "conforme escopo" },
+      { "value": "90 dias", "label": "de garantia", "sub": "sobre o entregue" }
+    ],
+    "problemsTitle": "Onde o site da sua empresa está perdendo cliente",
+    "problems": [
+      {
+        "label": "01",
+        "title": "Demora a abrir no celular",
+        "copy": "A maior parte das buscas locais em Teresina vem de celular, boa parte em rede móvel. Site pesado perde a visita antes de terminar de carregar — e velocidade ainda derruba a posição no Google."
+      },
+      {
+        "label": "02",
+        "title": "Não aparece na busca por cidade",
+        "copy": "Uma página única com todos os serviços juntos não ranqueia para nada específico. Quem busca um serviço em Teresina encontra o concorrente que fez a lição de casa de SEO local."
+      },
+      {
+        "label": "03",
+        "title": "O contato morre no formulário",
+        "copy": "Formulário que cai numa caixa de e-mail que ninguém abre é lead perdido. Aqui o contato precisa chegar onde a venda acontece de verdade: no WhatsApp de quem atende."
+      }
+    ],
+    "deliverablesTitle": "O que entra no site",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Estrutura pensada para busca",
+        "copy": "Uma página por serviço, com texto próprio, título e descrição escritos para o termo que o cliente digita. Nada de página duplicada trocando o nome do bairro.",
+        "tags": ["SEO on-page", "Sitemap", "Dados estruturados"]
+      },
+      {
+        "n": "02",
+        "title": "Performance como requisito",
+        "copy": "Imagens no tamanho certo e no formato certo, sem excesso de script de terceiro. O alvo é conteúdo útil na tela em menos de três segundos no 4G.",
+        "tags": ["Core Web Vitals", "Imagens otimizadas"]
+      },
+      {
+        "n": "03",
+        "title": "Conversão pelo canal certo",
+        "copy": "Botão de WhatsApp com mensagem já preenchida em cada seção, formulário que registra a origem do contato e evento de conversão no Analytics.",
+        "tags": ["WhatsApp", "GA4", "Formulários"]
+      },
+      {
+        "n": "04",
+        "title": "Você no controle",
+        "copy": "Domínio, hospedagem e código na sua conta, com acesso desde a primeira semana. Trocar de fornecedor um dia não pode significar começar do zero.",
+        "tags": ["Código seu", "Deploy", "Analytics"]
+      }
+    ],
+    "localTitle": "Por que contratar quem é de Teresina",
+    "localParagraphs": [
+      "Quem trabalha aqui sabe como o cliente do Piauí busca, compara e decide. Isso muda coisas concretas no site: o texto fala do problema como ele é falado aqui, o botão principal é WhatsApp e não formulário de e-mail, e o horário de atendimento no perfil do Google corresponde ao que a empresa realmente pratica.",
+      "Também muda a manutenção. Site não acaba no lançamento: precisa de ajuste de conteúdo, atualização e correção. Fornecedor local continua alcançável no ano seguinte, e responde no mesmo fuso e no mesmo aplicativo em que você já trabalha."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa criar um site em Teresina?",
+        "a": "Landing page única com conteúdo entregue pelo cliente fica na faixa de R$ 2.000 a R$ 5.000. Site institucional com blog, SEO configurado e formulários integrados, entre R$ 6.000 e R$ 15.000. Com área logada ou catálogo dinâmico, a partir de R$ 18.000. A faixa exata sai na primeira conversa, sem custo."
+      },
+      {
+        "q": "Em quanto tempo o site fica pronto?",
+        "a": "Uma landing page leva de duas a três semanas. Um site institucional completo, de quatro a cinco semanas, contando revisão de conteúdo. O prazo depende principalmente da velocidade com que os textos e as fotos da empresa chegam."
+      },
+      {
+        "q": "Vocês escrevem os textos do site?",
+        "a": "Escrevemos quando o cliente prefere, e isso entra no escopo. Texto é a parte mais subestimada de qualquer site: é o que ranqueia e é o que convence. Se a empresa já tem material pronto, revisamos e adaptamos para busca."
+      },
+      {
+        "q": "O site vem com hospedagem?",
+        "a": "Configuramos a hospedagem na sua conta e deixamos o custo mensal claro antes de começar. Para site institucional isso costuma ficar entre gratuito e algumas dezenas de reais por mês, dependendo do tráfego."
+      },
+      {
+        "q": "Dá para integrar com o WhatsApp da empresa?",
+        "a": "Sim. O básico — botão com mensagem já preenchida em cada seção — está incluído. Envio automático de mensagem a partir do sistema exige a API oficial do WhatsApp Business e é orçado à parte."
+      }
+    ],
+    "relatedPosts": [
+      "quanto-custa-um-site-profissional-em-2026",
+      "por-que-seu-site-demora-para-carregar",
+      "seo-local-empresa-de-teresina-aparecer-no-google"
+    ]
+  },
+  {
+    "slug": "desenvolvimento-de-software-em/teresina-pi",
+    "serviceName": "Desenvolvimento de software sob medida",
+    "city": "Teresina",
+    "region": "PI",
+    "title": "Desenvolvimento de software em Teresina, PI — sistemas sob medida | Zenbit",
+    "description": "Software house em Teresina: sistemas sob medida para empresas do Piauí. Escopo fechado, demo toda semana, código no seu repositório desde o primeiro dia.",
+    "kicker": "// desenvolvimento de software · teresina, pi",
+    "h1": "Desenvolvimento de software em Teresina",
+    "h1Accent": "para quem não cabe no sistema pronto.",
+    "heroLead": "Somos uma software house em Teresina que constrói sistemas sob medida para empresas do Piauí e de fora. Quando o processo da sua operação tem uma regra que nenhum software de prateleira cobre direito, é aqui que essa regra vira código.",
+    "tags": ["Sistemas web", "Integrações", "Automação", "Consultoria"],
+    "stats": [
+      { "value": "6 a 16", "label": "semanas por projeto", "sub": "primeira versão útil" },
+      { "value": "1x", "label": "demo por semana", "sub": "toda sexta, sem exceção" },
+      { "value": "100%", "label": "do código é seu", "sub": "desde o primeiro commit" }
+    ],
+    "problemsTitle": "Quando faz sentido desenvolver em vez de assinar",
+    "problems": [
+      {
+        "label": "01",
+        "title": "O sistema pronto cobre 60% do processo",
+        "copy": "O resto vira planilha paralela, grupo de WhatsApp e retrabalho. Quando os contornos custam mais que a ferramenta, a conta já virou."
+      },
+      {
+        "label": "02",
+        "title": "A mensalidade cresce com a equipe",
+        "copy": "SaaS cobrado por usuário transforma crescimento em custo. Um sistema próprio é investimento único mais manutenção, e não pune a empresa por contratar."
+      },
+      {
+        "label": "03",
+        "title": "Os dados não conversam",
+        "copy": "Financeiro num lugar, operação em outro, e alguém digitando o mesmo dado duas vezes. Integração bem feita costuma se pagar só com as horas que devolve."
+      }
+    ],
+    "deliverablesTitle": "Como o projeto acontece",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Diagnóstico antes de proposta",
+        "copy": "Uma conversa de 30 minutos e, se fizer sentido, um levantamento curto e pago. Ninguém consegue orçar honestamente um sistema no segundo dia de conversa.",
+        "tags": ["Escopo", "Faixa de investimento"]
+      },
+      {
+        "n": "02",
+        "title": "Primeira versão em semanas",
+        "copy": "Cortamos o escopo até caber numa entrega curta, com o fluxo principal funcionando de ponta a ponta. Validar cedo é mais barato que acertar tarde.",
+        "tags": ["MVP", "Sprints curtos"]
+      },
+      {
+        "n": "03",
+        "title": "Demonstração toda semana",
+        "copy": "Você vê o sistema funcionando toda sexta, mesmo quando a semana rendeu pouco. É o que impede a descoberta tardia de que o rumo estava errado.",
+        "tags": ["Demo semanal", "Board aberto"]
+      },
+      {
+        "n": "04",
+        "title": "Operação depois do lançamento",
+        "copy": "Três meses de garantia sobre o que foi entregue e manutenção mensal opcional, com monitoramento e backup testado. Quem responde o chamado é quem escreveu o código.",
+        "tags": ["Garantia", "Manutenção", "Backup"]
+      }
+    ],
+    "localTitle": "Software house no Piauí, sem desconto na engenharia",
+    "localParagraphs": [
+      "A diferença técnica que justificava buscar fornecedor no Sudeste deixou de existir na maior parte dos projetos de sistema empresarial. Repositório versionado, entrega contínua, revisão de código e demonstração semanal são o mesmo padrão, e o custo de operação aqui é menor — o que aparece direto no orçamento.",
+      "O que continua sendo vantagem local é a disponibilidade: time daqui tem menos cliente por pessoa, responde mais rápido quando algo quebra em produção, e continua alcançável no ano seguinte. Em projeto de software, continuidade vale mais do que quase todo o resto."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa um sistema sob medida?",
+        "a": "Não existe tabela fixa, mas a faixa é previsível: um sistema com escopo bem delimitado costuma ficar entre R$ 25.000 e R$ 45.000 de desenvolvimento inicial. Na primeira conversa, sem custo, já saímos com uma faixa de investimento e prazo."
+      },
+      {
+        "q": "Dá para começar pequeno?",
+        "a": "Dá, e costuma ser o caminho certo. Um primeiro módulo — o processo que mais dói hoje — prova o processo de trabalho antes de comprometer o orçamento inteiro num sistema grande."
+      },
+      {
+        "q": "Que tecnologias vocês usam?",
+        "a": "TypeScript no front e no back na maior parte dos projetos, com React e Node, banco PostgreSQL e infraestrutura em nuvem na conta do cliente. A escolha muda quando o problema pede, mas não trocamos de stack por moda."
+      },
+      {
+        "q": "Vocês atendem empresa de fora de Teresina?",
+        "a": "A maior parte dos nossos clientes é de fora. O trabalho é remoto por padrão, com uma chamada semanal fixa e o board aberto o tempo todo — presencial quando o projeto justifica a viagem."
+      },
+      {
+        "q": "O que acontece se aparecer um bug depois da entrega?",
+        "a": "Correção de defeito sobre o que foi combinado está coberta pela garantia de três meses, sem custo extra. Depois disso, entra no contrato de manutenção, com prazo de resposta definido por gravidade."
+      }
+    ],
+    "relatedPosts": [
+      "quando-sistema-sob-medida-sai-mais-barato-que-saas",
+      "mvp-em-seis-semanas-o-que-cortar",
+      "software-house-em-teresina-como-escolher"
+    ]
+  },
+  {
+    "slug": "criacao-de-aplicativo-em/teresina-pi",
+    "serviceName": "Desenvolvimento de aplicativos",
+    "city": "Teresina",
+    "region": "PI",
+    "title": "Desenvolvimento de aplicativo em Teresina, PI — apps iOS e Android | Zenbit",
+    "description": "Criação de aplicativo em Teresina: app iOS e Android para empresas do Piauí. Publicação nas lojas, integração com seu sistema e manutenção depois do lançamento.",
+    "kicker": "// aplicativos móveis · teresina, pi",
+    "h1": "Desenvolvimento de aplicativo em Teresina",
+    "h1Accent": "com a parte chata resolvida.",
+    "heroLead": "Aplicativo para iOS e Android para empresas de Teresina e do Piauí — do desenho da primeira tela à publicação nas lojas. Incluindo a burocracia que trava a maioria dos projetos: contas de desenvolvedor, política de privacidade e revisão da Apple.",
+    "tags": ["iOS", "Android", "React Native", "Publicação nas lojas"],
+    "stats": [
+      { "value": "8 a 16", "label": "semanas até a loja", "sub": "primeira versão" },
+      { "value": "2", "label": "plataformas", "sub": "iOS e Android" },
+      { "value": "1", "label": "base de código", "sub": "menos custo de manutenção" }
+    ],
+    "problemsTitle": "Antes de decidir fazer um app",
+    "problems": [
+      {
+        "label": "01",
+        "title": "Talvez você não precise de um",
+        "copy": "Se o objetivo é ser encontrado e receber contato, um site rápido resolve melhor e custa menos. App se justifica quando existe uso recorrente — o mesmo usuário voltando várias vezes por mês."
+      },
+      {
+        "label": "02",
+        "title": "A loja é metade do trabalho",
+        "copy": "Conta de desenvolvedor, ficha da loja, política de privacidade, permissões, revisão da Apple. Projeto que ignora essa parte atrasa semanas no fim, quando já não dá para adiar."
+      },
+      {
+        "label": "03",
+        "title": "App parado apodrece",
+        "copy": "iOS e Android mudam requisitos todo ano. Aplicativo sem manutenção some da loja ou para de abrir. Isso precisa estar no orçamento desde o começo, não como surpresa."
+      }
+    ],
+    "deliverablesTitle": "O que fazemos",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Escopo de primeira versão",
+        "copy": "Cortamos até sobrar o fluxo que prova o valor do app. Notificação, área offline e login social entram na fase dois, quando existe usuário para justificar.",
+        "tags": ["MVP", "Fluxo principal"]
+      },
+      {
+        "n": "02",
+        "title": "Uma base para as duas lojas",
+        "copy": "React Native na maior parte dos casos, nativo quando o recurso exige. Uma base de código significa metade do custo de manutenção nos anos seguintes.",
+        "tags": ["React Native", "Swift", "Kotlin"]
+      },
+      {
+        "n": "03",
+        "title": "Integração com o que já existe",
+        "copy": "O app conversa com o sistema, o ERP ou a planilha que a empresa já usa. Aplicativo que não lê o dado real da operação vira demonstração bonita e nada mais.",
+        "tags": ["API", "Autenticação", "Push"]
+      },
+      {
+        "n": "04",
+        "title": "Publicação e acompanhamento",
+        "copy": "Subimos nas duas lojas usando contas da sua empresa, com monitoramento de erro e acompanhamento das primeiras semanas de uso real.",
+        "tags": ["App Store", "Google Play", "Monitoramento"]
+      }
+    ],
+    "localTitle": "Aplicativo feito perto de quem vai usar",
+    "localParagraphs": [
+      "Boa parte dos apps que atendem o público do Piauí precisa funcionar em condição de rede ruim e em aparelho Android antigo — realidade que fica invisível para quem testa só em iPhone novo com wi-fi bom. Testar no aparelho que o cliente de verdade usa muda decisões de projeto.",
+      "Estar na mesma cidade também encurta a fase de validação: dá para sentar com as pessoas que vão usar o aplicativo no dia a dia, ver onde elas travam e corrigir na semana seguinte, em vez de descobrir por avaliação de uma estrela na loja."
+    ],
+    "faq": [
+      {
+        "q": "Quanto custa desenvolver um aplicativo?",
+        "a": "Um app de primeira versão com escopo enxuto, publicado nas duas lojas, costuma ficar entre R$ 35.000 e R$ 80.000, dependendo da quantidade de fluxos e das integrações. Escopo grande demais é o principal motivo de orçamento alto — e o primeiro lugar onde a gente corta."
+      },
+      {
+        "q": "Preciso mesmo de aplicativo ou um site resolve?",
+        "a": "Se o objetivo é ser encontrado, apresentar a empresa e receber contato, um site rápido resolve melhor e mais barato. App faz sentido quando existe uso recorrente, necessidade de notificação ou funcionamento sem internet."
+      },
+      {
+        "q": "Quem publica nas lojas?",
+        "a": "Nós publicamos, mas sempre em contas de desenvolvedor da sua empresa — Apple e Google. O app precisa ser um ativo seu; conta de fornecedor cria dependência desnecessária."
+      },
+      {
+        "q": "O app funciona nos dois sistemas com o mesmo código?",
+        "a": "Na maior parte dos projetos, sim: uma base em React Native atende iOS e Android. Quando algum recurso exige código nativo, escrevemos só essa parte de forma específica."
+      },
+      {
+        "q": "E depois do lançamento?",
+        "a": "Aplicativo exige manutenção contínua, porque as lojas mudam requisitos todo ano. Trabalhamos com plano mensal que cobre atualização de compatibilidade, correção e monitoramento de erros."
+      }
+    ],
+    "relatedPosts": [
+      "mvp-em-seis-semanas-o-que-cortar",
+      "manutencao-de-sistema-o-que-entra-na-mensalidade",
+      "software-house-em-teresina-como-escolher"
+    ]
+  },
+  {
+    "slug": "sistema-de-gestao-em/teresina-pi",
+    "serviceName": "Sistema de gestão sob medida",
+    "city": "Teresina",
+    "region": "PI",
+    "title": "Sistema de gestão em Teresina, PI — ERP sob medida para sua operação | Zenbit",
+    "description": "Sistema de gestão sob medida para empresas de Teresina e do Piauí: sai da planilha, integra o que já existe e cobra o processo que a sua operação usa de verdade.",
+    "kicker": "// sistema de gestão · teresina, pi",
+    "h1": "Sistema de gestão em Teresina",
+    "h1Accent": "no formato da sua operação.",
+    "heroLead": "Para empresas de Teresina e do interior do Piauí que já passaram do ponto da planilha e não se encaixaram no ERP de prateleira. Um sistema que segue o processo que a sua equipe já usa — em vez de obrigar a equipe a seguir o processo do software.",
+    "tags": ["Pedidos", "Estoque", "Ordem de serviço", "Relatórios"],
+    "stats": [
+      { "value": "1", "label": "processo por vez", "sub": "migração sem parar a operação" },
+      { "value": "4 a 10", "label": "semanas por módulo", "sub": "do escopo ao uso real" },
+      { "value": "0", "label": "custo por usuário", "sub": "a equipe cresce, o custo não" }
+    ],
+    "problemsTitle": "Sinais de que a planilha já custa caro",
+    "problems": [
+      {
+        "label": "01",
+        "title": "Uma pessoa só entende o arquivo",
+        "copy": "Se essa pessoa sai de férias e a operação trava, o problema deixou de ser de ferramenta e virou risco de continuidade do negócio."
+      },
+      {
+        "label": "02",
+        "title": "Ninguém sabe qual versão vale",
+        "copy": "Quando existem a planilha nova, a final e a final revisada, todo relatório vira discussão sobre qual arquivo estava certo — e decisão tomada em cima de dado que ninguém confia."
+      },
+      {
+        "label": "03",
+        "title": "Alguém digita o que já existe",
+        "copy": "Retrabalho manual entre sistemas é o custo mais fácil de calcular: horas por semana vezes o custo da hora. Normalmente é o que sozinho justifica o investimento."
+      }
+    ],
+    "deliverablesTitle": "Como tiramos a empresa da planilha",
+    "deliverables": [
+      {
+        "n": "01",
+        "title": "Mapa do processo real",
+        "copy": "Acompanhamos como o trabalho acontece hoje, incluindo os contornos que ninguém documentou. É esse processo que vira sistema — não uma versão idealizada dele.",
+        "tags": ["Levantamento", "Fluxo real"]
+      },
+      {
+        "n": "02",
+        "title": "Um módulo primeiro",
+        "copy": "Começamos pelo processo que mais dói: pedido, estoque ou ordem de serviço. O resto continua na planilha até o primeiro estar rodando bem.",
+        "tags": ["Migração gradual", "Baixo risco"]
+      },
+      {
+        "n": "03",
+        "title": "Validação na entrada",
+        "copy": "Planilha aceita qualquer coisa; sistema não. Data impossível, cliente duplicado e valor fora da faixa passam a ser barrados antes de virarem prejuízo.",
+        "tags": ["Regras de negócio", "Auditoria"]
+      },
+      {
+        "n": "04",
+        "title": "Relatório que responde rápido",
+        "copy": "As perguntas que hoje levam meia hora de tabela dinâmica passam a ter resposta em uma tela — e exportação para quem ainda quiser trabalhar no Excel.",
+        "tags": ["Indicadores", "Exportação"]
+      }
+    ],
+    "localTitle": "Perto da operação, não só do contrato",
+    "localParagraphs": [
+      "Sistema de gestão é o tipo de projeto que dá errado quando quem programa nunca viu a operação funcionando. Estar em Teresina permite passar um dia no balcão, no depósito ou na oficina antes de desenhar a tela — e isso costuma mudar metade das decisões de interface.",
+      "Depois que entra em produção, a proximidade continua importando: mudança de regra fiscal, período de pico e ajuste de processo aparecem sem aviso, e o time que atende precisa responder em horas, não em semanas."
+    ],
+    "faq": [
+      {
+        "q": "Vale mais a pena um ERP pronto ou um sistema sob medida?",
+        "a": "Se o processo é genérico, um ERP pronto e bem escolhido ganha, porque já existe e já foi testado por milhares de empresas. A conta vira quando a operação tem uma regra específica que nenhum sistema do mercado cobre, ou quando você usa uma fração pequena do que paga."
+      },
+      {
+        "q": "Quanto custa e como se paga?",
+        "a": "Um sistema de gestão com escopo delimitado fica entre R$ 25.000 e R$ 45.000 de desenvolvimento, pago uma vez, mais manutenção mensal opcional. Comparado a um SaaS de R$ 800 por mês, o ponto de equilíbrio costuma cair entre o terceiro e o quarto ano — antes disso, se você contar as horas de retrabalho eliminadas."
+      },
+      {
+        "q": "Dá para migrar os dados que estão na planilha?",
+        "a": "Sim, e isso entra no escopo. A importação costuma revelar inconsistências antigas — duplicidade, campo vazio, formato misturado — e essa limpeza é parte do trabalho."
+      },
+      {
+        "q": "O sistema emite nota fiscal?",
+        "a": "Integramos com emissores e com a API da prefeitura quando o município oferece. Não recomendamos reimplementar emissão fiscal do zero: é área regulada, muda com frequência e já existe solução madura para integrar."
+      },
+      {
+        "q": "E se a empresa crescer?",
+        "a": "Sistema próprio não cobra por usuário, então crescer a equipe não aumenta a mensalidade. O que pode crescer é o custo de infraestrutura, e ele é proporcional ao uso real — normalmente ordens de grandeza abaixo de uma licença por pessoa."
+      }
+    ],
+    "relatedPosts": [
+      "da-planilha-para-o-sistema-sinais",
+      "quando-sistema-sob-medida-sai-mais-barato-que-saas",
+      "manutencao-de-sistema-o-que-entra-na-mensalidade"
+    ]
+  }
+]

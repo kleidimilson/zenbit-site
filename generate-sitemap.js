@@ -5,6 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 const BLOG_DIR = './src/content/blog';
+const LOCAL_PAGES_FILE = './src/content/local-pages.json';
 
 function getBlogSlugs() {
   return fs
@@ -17,16 +18,21 @@ function getBlogSlugs() {
     });
 }
 
+function getLocalPageSlugs() {
+  const raw = fs.readFileSync(LOCAL_PAGES_FILE, 'utf-8');
+  return JSON.parse(raw).map((page) => page.slug);
+}
+
 async function generateSitemap() {
   const sitemap = new SitemapStream({ hostname: 'https://www.zenbit.com.br' });
 
   const routes = [
     { url: '/', changefreq: 'daily', priority: 1.0 },
-    {
-      url: '/criacao-de-site-em/teresina-pi/',
+    ...getLocalPageSlugs().map((slug) => ({
+      url: `/${slug}/`,
       changefreq: 'weekly',
-      priority: 1.0,
-    },
+      priority: 0.9,
+    })),
     { url: '/blog', changefreq: 'weekly', priority: 0.8 },
     ...getBlogSlugs().map(({ slug, date }) => ({
       url: `/blog/${slug}`,

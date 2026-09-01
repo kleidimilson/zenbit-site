@@ -15,21 +15,30 @@ import { faqList } from '@/lib/faq-data';
 
 const Hero = lazy(() => import('@/components/Hero'));
 
+const PAGE_TITLE = 'Software house em Teresina, PI — sistemas e apps sob medida | Zenbit';
+const PAGE_DESCRIPTION =
+  'Software house em Teresina, Piauí: desenvolvimento de sistemas, sites e aplicativos sob medida. Código no seu repositório, demo toda semana e orçamento em 1 dia útil.';
+
 const localBusinessJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
+  '@id': `${SITE_URL}/#business`,
   name: 'Zenbit Softhouse',
   url: SITE_URL,
+  image: `${SITE_URL}/logo.png`,
+  logo: `${SITE_URL}/logo.png`,
   telephone: '+55 86 99420-1843',
+  email: 'contato@zenbit.com.br',
+  priceRange: '$$',
   areaServed: ['Teresina', 'Piauí', 'Brasil'],
+  knowsLanguage: 'pt-BR',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Teresina',
     addressRegion: 'PI',
     addressCountry: 'BR',
   },
-  description:
-    'Software-house brasileira que constrói aplicativos, sistemas e plataformas sob medida para empresas que precisam de algo específico.',
+  description: PAGE_DESCRIPTION,
 };
 
 const faqJsonLd = {
@@ -46,20 +55,18 @@ export function Home() {
   return (
     <>
       <Head>
-        <title>Zenbit — Software sob medida</title>
-        <meta
-          name="description"
-          content="Software-house brasileira que constrói aplicativos, sistemas e plataformas sob medida para empresas que precisam de algo específico."
-        />
+        <title>{PAGE_TITLE}</title>
+        <meta name="description" content={PAGE_DESCRIPTION} />
         <link rel="canonical" href={SITE_URL} />
+        <meta name="geo.region" content="BR-PI" />
+        <meta name="geo.placename" content="Teresina" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Zenbit — Software sob medida" />
-        <meta
-          property="og:description"
-          content="Software-house brasileira que constrói aplicativos, sistemas e plataformas sob medida para empresas que precisam de algo específico."
-        />
+        <meta property="og:title" content={PAGE_TITLE} />
+        <meta property="og:description" content={PAGE_DESCRIPTION} />
         <meta property="og:url" content={SITE_URL + '/'} />
         <meta property="og:image" content={`${SITE_URL}/logo.png`} />
+        <meta property="og:locale" content="pt_BR" />
+        <meta name="twitter:card" content="summary_large_image" />
         <script type="application/ld+json">{JSON.stringify(localBusinessJsonLd)}</script>
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Head>

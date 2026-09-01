@@ -22,3 +22,5 @@ Nas três contratações, o fator que mais previu sucesso não foi conhecimento 
 Time júnior em Teresina, formado localmente, tende a ficar mais tempo — o custo de vida e a proximidade da família pesam contra a saída pra outra cidade assim que aparece a primeira oferta melhor. Isso trocou rotatividade por continuidade: quem entra júnior aqui, se o ambiente for bom, cresce dentro do time.
 
 **O que faríamos diferente desde o início:** menos peso em teste técnico eliminatório, mais peso em observar como a pessoa pensa quando não sabe a resposta.
+
+Sobre o mercado que forma essa gente, escrevemos aqui: [o que mudou no desenvolvimento de software no Piauí](/blog/desenvolvimento-de-software-no-piaui-time-local).

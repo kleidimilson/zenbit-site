@@ -19,15 +19,18 @@ There is no test framework in this project.
 
 ### Routing
 
-React Router v6 with two routes defined in `src/routes/index.tsx`:
+React Router v6 (via `vite-react-ssg`) with the routes defined in `src/routes/index.tsx`:
 - `/` → `Home` (main landing page)
-- `/criacao-de-site-em/teresina-pi/` → `HomeTeresina` (location-specific landing page)
+- `/blog` → `Blog` (index) and `/blog/:slug` → `BlogPost`, prerendered from `blogSlugs`
+- `/:service/:city` → `LocalLanding`, prerendered from `localPageSlugs` (e.g. `/criacao-de-site-em/teresina-pi/`)
 
-In-page navigation uses `react-router-hash-link` (e.g., `#about`, `#howItWorks`). The `Hero` component is lazy-loaded via `React.lazy()`.
+The local service+city landing pages are content-driven: all copy lives in `src/content/local-pages.json` and is typed in `src/lib/local-pages.ts`. Adding a page there creates the route, the prerendered HTML, the sitemap entry and the internal links in the footer, no component changes needed. Each page must have its own copy — near-duplicate pages across cities hurt ranking rather than help it.
+
+The `Hero` component is lazy-loaded via `React.lazy()`.
 
 ### Pages vs Components
 
-- `src/pages/` — route-level components (`Home.tsx`, `HomeTeresina.tsx`), each wrapping their content with `<HelmetProvider>` + `<Helmet>` for per-page SEO meta tags
+- `src/pages/` — route-level components (`Home.tsx`, `Blog.tsx`, `BlogPost.tsx`, `LocalLanding.tsx`), each setting per-page SEO meta tags and JSON-LD through the `<Head>` component from `vite-react-ssg`
 - `src/components/` — presentational sections (Navbar, Hero, About, HowItWorks, Portfolio, Footer, ScrollToTop)
 - `src/components/ui/` — Shadcn/UI primitives (button, card, accordion, sheet, etc.)
 

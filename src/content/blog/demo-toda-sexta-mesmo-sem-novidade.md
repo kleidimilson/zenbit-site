@@ -24,3 +24,5 @@ Mostrar o feio também é parte do trato: uma tela sem estilo, uma regra que ain
 Funciona só se tem alguém do outro lado prestando atenção — não é uma call de 30 minutos pra bater o olho e sumir. As perguntas que aparecem na demo geralmente valem mais que o código da semana em si, porque são elas que evitam retrabalho.
 
 **Na prática:** projeto sem demo semanal não é necessariamente pior — mas é maior risco de descobrir tarde. A gente prefere a chatice de mostrar pouco toda semana à surpresa de mostrar muito depois de errado.
+
+A demo semanal é a outra metade de [entregar um MVP em seis semanas](/blog/mvp-em-seis-semanas-o-que-cortar) — e é parte fixa de todo [projeto de desenvolvimento que tocamos](/desenvolvimento-de-software-em/teresina-pi/).

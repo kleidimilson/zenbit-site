@@ -36,3 +36,5 @@ O erro comum é sair da planilha direto para um projeto de doze meses. Funciona 
 O investimento fica menor, o resultado aparece em semanas, e o time aprende a usar sistema antes de ser obrigado a mudar tudo.
 
 **Como decidir agora:** conte quantos dos cinco sinais existem hoje na sua operação. Dois ou menos, a planilha ainda paga a conta. Três ou mais, o custo de continuar já é maior que o de mudar.
+
+Antes de decidir entre construir e assinar, vale ver [a partir de que ponto um sistema sob medida sai mais barato que o SaaS](/blog/quando-sistema-sob-medida-sai-mais-barato-que-saas) — e como fazemos essa migração em [sistema de gestão em Teresina](/sistema-de-gestao-em/teresina-pi/).
